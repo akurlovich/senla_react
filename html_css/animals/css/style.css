@@ -90,18 +90,29 @@
     width: 510px;
     height: 501px;
     left: 110px;
-    top: 908px; 
+    top: 74px; /*908*/
     background: #E5E5E5;
     border: 1px solid rgba(0, 0, 0, 0.3); 
     box-sizing: border-box;
 }
+
+.section-one {
+    position: absolute;
+    /*display: contents; /*!  добавил сам, узнать как сделать по другому, т.к. не меняется цвет заднего фона*/
+    width: 1366px;
+    height: 650px;
+    left: 0px;
+    top: 834px;
+    background: #FFFFFF;
+}
+
 
 .main-h3 {
     position: absolute;
     width: 464px;
     height: 94px;
     left: 693px;
-    top: 962px;
+    top: 128px;/*962*/
     font-family: Gilroy;
     font-style: normal;
     font-weight: 600;
@@ -111,6 +122,7 @@
     align-items: center;
     text-align: center;
     color: #242424;
+    background: #FFFFFF;
 }
 
 .section-one-p-one {
@@ -118,13 +130,14 @@
     width: 464px;
     height: 155px;
     left: 693px;
-    top: 1084px;
+    top: 250px; /*1084*/
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #242424;
+    background: #FFFFFF;
 }
 
 .section-one-p-two {
@@ -132,22 +145,45 @@
     width: 466px;
     height: 88px;
     left: 693px;
-    top: 1259px;
+    top: 425px; /*1259*/
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #242424;
-}
-
-.section-one {
-    position: absolute;
-    display: contents; /*!  добавил сам, узнать как сделать по другому, т.к. не меняется цвет заднего фона*/
-    width: 1366px;
-    height: 650px;
-    left: 0px;
-    top: 834px;
     background: #FFFFFF;
 }
+
+.section-two-h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    color: #242424;
+
+    height: 24px;
+    width: 368px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+    position: absolute;
+    width: 368px;
+    height: 24px;
+    left: 499px;
+    top: 1564px;
+
+
+}
+
+
 
