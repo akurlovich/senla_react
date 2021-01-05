@@ -1,0 +1,149 @@
+
+.header-h1 {
+    position: absolute;
+    width: 594px;
+    height: 87px;
+    left: 110px;
+    top: 164px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+    color: #242424;
+}
+
+.header-img-big {
+    position: absolute;
+    width: 706px;
+    height: 834px;
+    left: 550px;
+    top: 0px;
+    background: #E5E5E5;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+.header-h2 {
+    position: absolute;
+    width: 594px;
+    height: 18px;
+    left: 110px;
+    top: 243px; /*было 243*/
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* Gray 4 */
+
+    color: #6B6B6B;
+}
+
+.header-p {
+    position: absolute;
+    width: 415px;
+    height: 116px;
+    left: 110px;
+    top: 360px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #5A5757;
+}
+
+.header-button {
+    height: 52px;
+    width: 192px;
+    left: 102px;
+    top: 520px;
+    border-radius: 6px;
+    position: absolute;
+    background: #18A0FB;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    /*display: flex; было*/ 
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.main-img-big {
+    position: absolute;
+    width: 510px;
+    height: 501px;
+    left: 110px;
+    top: 908px; 
+    background: #E5E5E5;
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    box-sizing: border-box;
+}
+
+.main-h3 {
+    position: absolute;
+    width: 464px;
+    height: 94px;
+    left: 693px;
+    top: 962px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #242424;
+}
+
+.section-one-p-one {
+    position: absolute;
+    width: 464px;
+    height: 155px;
+    left: 693px;
+    top: 1084px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+
+.section-one-p-two {
+    position: absolute;
+    width: 466px;
+    height: 88px;
+    left: 693px;
+    top: 1259px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+
+.section-one {
+    position: absolute;
+    display: contents; /*!  добавил сам, узнать как сделать по другому, т.к. не меняется цвет заднего фона*/
+    width: 1366px;
+    height: 650px;
+    left: 0px;
+    top: 834px;
+    background: #FFFFFF;
+}
+
