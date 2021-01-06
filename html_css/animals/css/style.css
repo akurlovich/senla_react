@@ -1,6 +1,8 @@
 
 * {
     background: #E5E5E5;
+    /*width: 1366px;*/
+
 }
 
 .header-h1 {
@@ -155,35 +157,188 @@
     background: #FFFFFF;
 }
 
+.section_two {
+    position: absolute;
+    top: 1484px;
+    width: 1366px;
+    height: 541px;
+}
+
+
 .section-two-h3 {
+    text-align: center;
+    align-items: center;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
     line-height: 24px;
-
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
     color: #242424;
+}
 
-    height: 24px;
-    width: 368px;
-    left: 0px;
-    top: 0px;
-    border-radius: nullpx;
+.section_two_ul {
+    display: flex;
+    list-style-type: none;
+}
 
-    position: absolute;
-    width: 368px;
-    height: 24px;
-    left: 499px;
-    top: 1564px;
-
+.img_help { /* ! не срабатывает размер изображения*/
+    background: #E5E5E5;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 
 }
 
+.section_two_img_central {
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    top: 200px;
+    position: relative;
+    
+}
+
+.for_line {
+    display: inline-block;
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.section_three {
+    position: absolute;
+    top: 2025px;
+    width: 1366px;
+    height: 541px;
+}
+
+.section_four {
+    position: absolute;
+    top: 2525px;
+    width: 1366px;
+    height: 873px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 368px;
+    height: 485px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.peredergka {
+    display: flex;
+    list-style-type: none;
+}
+
+.section_five {
+    position: absolute;
+    top: 3600px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_six {
+    position: absolute;
+    top: 4300px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_seven {
+    position: absolute;
+    top: 4900px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_eight {
+    position: absolute;
+    top: 5600px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_nine {
+    position: absolute;
+    top: 6200px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_ten {
+    position: absolute;
+    top: 6700px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_eleven {
+    position: absolute;
+    top: 7200px;
+    width: 1366px;
+    height: 873px;
+}
+
+footer {
+    position: absolute;
+    top: 7700px;
+    width: 1366px;
+    height: 873px;
+}
+
+.section_two_img_central:before,
+.section_two_img_central:after { /*! надо поиграться с толщиной линий*/
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100%;
+    height: 1px;
+    /* Добавляем цвет для линии */
+    background-color: #B3B3B3;
+    border: 1px solid #B3B3B3;
+    transform: rotate(180deg);
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+}
+.section_two_img_central:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -14px;
+}
+.section_two_img_central:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}
 
 
