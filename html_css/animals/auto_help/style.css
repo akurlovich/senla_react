@@ -259,6 +259,23 @@ input[type="checkbox" i] {
     border-radius: 2px;
 }
 
+<<<<<<< Updated upstream
+=======
+.same_class {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#delivery_items {
+    position: relative;
+    left: 0;
+    top: -8px;
+}
+
+
+>>>>>>> Stashed changes
 textarea {
     height: 76px;
     width: 445px;
