@@ -129,6 +129,7 @@ input {
     line-height: 20px;
     color: #6B6B6B;
     opacity: 0.7;
+    padding: 10px 17px 10px 16px;
 
 }
 #name {
@@ -156,6 +157,7 @@ textarea {
     box-sizing: border-box;
     border-radius: 2px;
     resize: none;
+    padding: 10px 17px 0 16px;
 }
 
 .contacts p {

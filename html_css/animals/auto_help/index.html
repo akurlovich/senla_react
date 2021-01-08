@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto_help</title>
+    <title>Auto help</title>
     <link rel="stylesheet" href="Gilroy/stylesheet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="body">
+            <div class="header">
+                <h3>Автопомощь</h3>
+            </div>
+            <div class="line"></div>
+            <p class="header_form">Заявка</p>
+            <section>
+                <div class="text">
+                    <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                </div>
+                <form action="#" method="post">
+                    <input class="first_input" type="text" name="" id="name" placeholder="Фамилия и имя">
+                    <input class="first_input" type="tel" name="" id="phone" placeholder="Номер телефона">
+                    <p class="for_input">Обязательное поле для заполнения</p>
+                    <p class="header_time">Выберите удобное время, когда вы сможете нам помочь</p>
+                    <input class="first_input" type="date" name="" id="date" placeholder="Дата/период">
+                    <input class="first_input" type="time" name="" id="time" placeholder="Время">
+                    <div class="plus_area">
+                        <div class="plus"></div>
+                        <p>+</p>
+                        <p class="header_add_data">Добавить дату и время</p>
+                    </div>
+                    <input type="checkbox" name="work_day" id="work_day"><label for="work_day">В любой будний день</label><br>
+                    <input type="checkbox" name="weekend" id="weekend"><label for="weekend">В любой выходной день</label>
+                    <p class="help_text">Выберите вид автопомощи</p>
+                    <input type="checkbox" name="delivery" id="delivery"><label for="delivery">Доставка еды, медикаментов и других небольших вещей</label> <br>
+                    <input type="checkbox" name="weekend_items" id="weekend_items"><label for="weekend_items">Доставка сена или соломы, строительных материлов для будок и других крупногабаритных вещей</label><br>
+                    <input type="checkbox" name="small_animals" id="small_animals"><label for="small_animals">Транспортировка небольших собак и котов</label><br>
+                    <input type="checkbox" name="big_animals" id="big_animals"><label for="big_animals">Транспортировка больших собак</label>
+                     
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                </form>
+            </section>
+            <footer>
+                <div class="button">
+                    <button class="send" type="submit">Оставить заявку</button>
+                    <button class="cancel" type="reset">Отмена</button>
+                </div>
+            </footer>
+        </div>
+
+    </div>
     
 </body>
 </html>
