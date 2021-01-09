@@ -4,8 +4,8 @@
 
 
 .wrapper {
-    height: 962px;
-    width: 525px;
+    height: 634px;
+    width: 582px;
     border-radius: 5px;
     background: #FFFFFF;
     box-shadow: 0px 0px 22px rgba(161, 161, 161, 0.25);
@@ -16,15 +16,15 @@
 
 .body {
     /*background:rgba(161, 161, 161, 0.25); /*! убрать это*/
-    height: 902px;
-    width: 445px;
+    height: 574px;
+    width: 502px;
     margin: 30px 40px 30px 40px;
     position: absolute;
 }
 
 .header {
     width: 388px;
-    height: 36px;
+    height: 42px;
     left: 10px;
 }
 .header h3 {
@@ -116,8 +116,8 @@
 }*/
 
 .text {
-    width: 402px;
-    height: 67px;
+    width: 100%;
+    height: 42px;
 }
 
 .text p {
@@ -134,7 +134,7 @@
 
 .first_input {
     height: 40px;
-    width: 445px;
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #D6D6D6;
     box-sizing: border-box;
@@ -277,7 +277,7 @@ input[type="checkbox" i] {
 
 textarea {
     height: 76px;
-    width: 445px;
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #D6D6D6;
     box-sizing: border-box;
