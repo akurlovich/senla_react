@@ -266,6 +266,13 @@ input[type="checkbox" i] {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 12px;
+}
+
+#delivery_items {
+    position: relative;
+    left: 0;
+    top: -8px;
 }
 
 
