@@ -259,8 +259,6 @@ input[type="checkbox" i] {
     border-radius: 2px;
 }
 
-<<<<<<< Updated upstream
-=======
 .same_class {
     display: flex;
     flex-direction: row;
@@ -275,7 +273,6 @@ input[type="checkbox" i] {
 }
 
 
->>>>>>> Stashed changes
 textarea {
     height: 76px;
     width: 445px;
