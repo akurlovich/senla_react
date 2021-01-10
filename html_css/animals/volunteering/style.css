@@ -262,6 +262,22 @@ input[type="checkbox" i] {
     border-radius: 2px;
 }
 
+.radio_input:checked {
+    background: red;
+    
+}
+
+.radio_input:checked + .label_checked {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+}
+
 .same_class {
     display: flex;
     flex-direction: row;
