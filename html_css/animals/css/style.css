@@ -22,6 +22,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 }
 
+.header {
+    position: relative;
+    z-index: 5;
+}
+
 .wrapper {
     max-width: 1366px;
     overflow: hidden;
@@ -35,7 +40,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     justify-content: space-between;
     margin-left: 110px;
-    margin-right: 250px;
+    margin-right: 200px;
+    z-index: 3;
+    position: relative;
+    
     
 }
 
@@ -46,7 +54,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .menu li {
-    padding-right: 20px;
+    padding-right: 32px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: 600;
@@ -56,9 +64,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .header_title {
-    
+    position: relative;
     margin-left: 110px;
     height: 615px; /*!скорее всего не привильно*/
+    z-index: 3;
     
 }
 
@@ -139,7 +148,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     top: 0px;
     background: url(/html_css/animals/img/dog\ 1.png);
     border-radius: 0px 0px 8px 8px;
-    opacity: 0.3;
+    opacity: 1;
+    z-index: 1;
 }
 
 
