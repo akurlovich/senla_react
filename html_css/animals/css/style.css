@@ -197,4 +197,44 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin-bottom: 28px;
 }
 
+.how_help {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 540px;
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.how_help_header {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    
+    align-items: center;
+    text-align: center;
+    color: #242424;
+    margin-top: 80px;
+}
+
+.how_help_items {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 86px;
+    
+
+}
+
+.how_help_items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 166px;
+    height: 240px; 
+}
+
 
