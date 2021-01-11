@@ -1,345 +1,72 @@
 
-* {
-    background: #E5E5E5;
-    /*width: 1366px;*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
-}
-
-.header-h1 {
-    position: absolute;
-    width: 594px;
-    height: 87px;
-    left: 110px;
-    top: 164px;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 87px;
-    color: #242424;
-}
-
-.header-img-big {
-    position: absolute;
-    width: 706px;
-    height: 834px;
-    left: 550px;
-    top: 0px;
-    background: #E5E5E5;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
+.body {
+    max-height: 100%;
     
-    z-index: -2;
-}
-
-.header-h2 {
-    position: absolute;
-    width: 594px;
-    height: 18px;
-    left: 110px;
-    top: 243px; /*было 243*/
-
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 18px;
-
-    /* Gray 4 */
-
-    color: #6B6B6B;
-}
-
-.header-p {
-    position: absolute;
-    width: 415px;
-    height: 116px;
-    left: 110px;
-    top: 360px;
-
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-
-    color: #5A5757;
-}
-
-.header-button {
-    height: 52px;
-    width: 192px;
-    left: 102px;
-    top: 520px;
-    border-radius: 6px;
-    position: absolute;
-    background: #18A0FB;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
-    /* identical to box height */
-    /*display: flex; было*/ 
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-}
-
-.main-img-big {
-    position: absolute;
-    width: 510px;
-    height: 501px;
-    left: 110px;
-    top: 74px; /*908*/
-    background: #E5E5E5;
-    border: 1px solid rgba(0, 0, 0, 0.3); 
-    box-sizing: border-box;
-}
-
-.section-one {
-    position: absolute;
-    /*display: contents; /*!  добавил сам, узнать как сделать по другому, т.к. не меняется цвет заднего фона*/
-    width: 1366px;
-    height: 650px;
-    left: 0px;
-    top: 834px;
-    background: #FFFFFF;
-}
-
-
-.main-h3 {
-    position: absolute;
-    width: 464px;
-    height: 94px;
-    left: 693px;
-    top: 128px;/*962*/
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 120%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #242424;
-    background: #FFFFFF;
-}
-
-.section-one-p-one {
-    position: absolute;
-    width: 464px;
-    height: 155px;
-    left: 693px;
-    top: 250px; /*1084*/
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    color: #242424;
-    background: #FFFFFF;
-}
-
-.section-one-p-two {
-    position: absolute;
-    width: 466px;
-    height: 88px;
-    left: 693px;
-    top: 425px; /*1259*/
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    color: #242424;
-    background: #FFFFFF;
-}
-
-.section_two {
-    position: absolute;
-    top: 1484px;
-    width: 1366px;
-    height: 541px;
-}
-
-
-.section-two-h3 {
-    text-align: center;
-    align-items: center;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 24px;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 24px;
-    color: #242424;
-}
-
-.section_two_ul {
-    display: flex;
-    list-style-type: none;
-}
-
-.img_help { /* ! не срабатывает размер изображения*/
-    background: #E5E5E5;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    
 
 }
 
-.section_two_img_central {
-    text-align: center;
-    align-items: center;
+.wrapper {
+    max-width: 1366px;
     overflow: hidden;
-    text-align: center;
-    top: 200px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #F6F6F6;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
     
 }
 
-.for_line {
-    display: inline-block;
-    vertical-align: middle;
-    height: 150px;
-    width: 150px;
-    left: 0px;
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 20px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #242424;
+}
+
+.header_title {
+    background-color: green;
+}
+
+.img_header { /*! вообще не правильно*/
+    position: absolute;
+    width: 718px;
+    height: 713px;
+    left: 538px;
     top: 0px;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-
+    background: url(/html_css/animals/img/dog\ 1.png);
+    border-radius: 0px 0px 8px 8px;
+    opacity: 0.3;
 }
 
-.section_three {
-    position: absolute;
-    top: 2025px;
-    width: 1366px;
-    height: 541px;
-}
-
-.section_four {
-    position: absolute;
-    top: 2525px;
-    width: 1366px;
-    height: 873px;
-}
-
-.cards {
-    display: flex;
-}
-
-.card {
-    width: 368px;
-    height: 485px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-}
-
-.peredergka {
-    display: flex;
-    list-style-type: none;
-}
-
-.section_five {
-    position: absolute;
-    top: 3600px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_six {
-    position: absolute;
-    top: 4300px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_seven {
-    position: absolute;
-    top: 4900px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_eight {
-    position: absolute;
-    top: 5600px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_nine {
-    position: absolute;
-    top: 6200px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_ten {
-    position: absolute;
-    top: 6700px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_eleven {
-    position: absolute;
-    top: 7200px;
-    width: 1366px;
-    height: 873px;
-}
-
-footer {
-    position: absolute;
-    top: 7700px;
-    width: 1366px;
-    height: 873px;
-}
-
-.section_two_img_central:before,
-.section_two_img_central:after { /*! надо поиграться с толщиной линий*/
-    /* Обязательно указываем пустое свойство content, 
-    ** иначе псевдоэлементы не появятся на сайте */
-    content: "";
-    /* Указываем что наши линии будут строчно-блочные и 
-    ** выравнивание по высоте - по центру */
-    display: inline-block;
-    vertical-align: middle;
-    /* Задаем ширину 100% и выбираем высоту линии, 
-    ** в нашем примере она равна 4 пикселям */
-    width: 100%;
-    height: 1px;
-    /* Добавляем цвет для линии */
-    background-color: #B3B3B3;
-    border: 1px solid #B3B3B3;
-    transform: rotate(180deg);
-    /* Добавляем пседоэлемантам возможность изменить 
-    ** позицию линии, для создания отступов от текста */
-    position: relative;
-}
-.section_two_img_central:before {
-    /* Смещаем левую линию на 100% влево, чтобы линия 
-    ** встала рядом с текстом слева */
-    margin-left: -100%;
-    /* Указываем в пикселях отступ линии от текста заголовка */
-    left: -14px;
-}
-.section_two_img_central:after {
-    /* Смещаем правую линию на 100% вправо, чтобы 
-    ** линия встала рядом с текстом справа */
-    margin-right: -100%;
-    /* Указываем в пикселях отступ линии от текста заголовка */
-    right: -14px;
-}
 
 
