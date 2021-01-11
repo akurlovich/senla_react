@@ -200,10 +200,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .how_help {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 540px;
+    /* justify-content: space-between; */
+    height: 470px;
     width: 100%;
-    background: #E5E5E5;
+    background: #F6F6F6;
 }
 
 .how_help_header {
@@ -217,6 +217,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     text-align: center;
     color: #242424;
     margin-top: 80px;
+    margin-bottom: 47px;
 }
 
 .how_help_items {
@@ -224,7 +225,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 86px;
+    margin: 0 118px 86px 118px;
     
 
 }
@@ -232,9 +233,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .how_help_items div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 166px;
     height: 240px; 
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.how_help_items p {
+    margin-top: 24px;
 }
 
 
