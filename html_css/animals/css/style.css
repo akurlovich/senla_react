@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .header {
     position: relative;
-    z-index: 5;
+    
 }
 
 .wrapper {
@@ -63,10 +63,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #242424;
 }
 
+.menu a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #242424;
+}
+
 .header_title {
     position: relative;
     margin-left: 110px;
-    height: 615px; /*!скорее всего не привильно*/
+    height: 736px; /*!скорее всего не привильно*/
     z-index: 3;
     
 }
@@ -139,8 +148,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 }
 
-
-.img_header { /*! вообще не правильно*/
+.img_header { /*! возможно норм*/
     position: absolute;
     width: 718px;
     height: 713px;
@@ -152,5 +160,41 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     z-index: 1;
 }
 
+.kind_hearts {
+    height: 650px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.kind_hearts_img {
+    flex: 0 0 50%;
+}
+
+.kind_hearts_title {
+    margin-top: 128px;
+}
+
+.kind_hearts_title p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+.kind_title_header {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    color: #C78100;
+    margin-bottom: 28px;
+}
 
 
