@@ -34,6 +34,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .menu {
     display: flex;
     justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 250px;
     
 }
 
@@ -54,8 +56,80 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .header_title {
-    background-color: green;
+    
+    margin-left: 110px;
+    height: 615px; /*!скорее всего не привильно*/
+    
 }
+
+.title_header {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+}
+
+.title_text_one {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6B6B6B;
+    
+}
+
+.title_text_two {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #474747;
+    margin-top: 12px;
+}
+
+.title_text_three {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #C78100;
+    margin-top: 43px;
+}
+
+.title_button {
+    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #242424;
+    font-family: Gilroy;
+
+    height: 42px;
+    width: 183px;
+    
+
+    align-items: center;
+    text-align: center;
+
+    margin-top: 44px;
+
+    
+
+}
+
 
 .img_header { /*! вообще не правильно*/
     position: absolute;
