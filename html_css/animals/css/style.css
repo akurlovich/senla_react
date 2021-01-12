@@ -256,10 +256,43 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
    
 }
 
+.what_can_do ul {
+    display: flex;
+    margin: 70px 207px 72px 287px;
+}
+
+.what_can_do li:first-child {
+    margin-right: 97px;
+}
+
+.what_can_do h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    /* display: flex;
+    align-items: center; */
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+.what_can_do p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    /* padding-right: 90px; */
+}
+
+
+
 
 
 .image_from_section:before,
-.image_from_section:after { /*! надо поиграться с толщиной линий*/
+.image_from_section:after { 
     /* Обязательно указываем пустое свойство content, 
     ** иначе псевдоэлементы не появятся на сайте */
     content: "";
