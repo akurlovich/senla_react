@@ -342,6 +342,54 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding: 16px 16px 7px 17px;
 }
 
+.ward_animals__card h4 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #242424;
+    margin-top: 8px;
+}
+
+.animals-card__text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B6B6B;
+    margin-bottom: 6px;
+    margin-top: 18px;
+}
+
+.animals-card__text-bold {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+    flex: 1 1 auto;
+} 
+
+.ward_animals__card a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+     display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #AD7F00;
+}
+
+
+
 
 
 
