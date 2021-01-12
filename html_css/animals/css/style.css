@@ -291,6 +291,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 
+
+
+
+
 .image_from_section:before,
 .image_from_section:after { 
     /* Обязательно указываем пустое свойство content, 
