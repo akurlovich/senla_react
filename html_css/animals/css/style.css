@@ -252,8 +252,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* width: 100%; */
     /* display: inline-block; */
     text-align: center; /*отцентрировало картинку в блоке*/
-    /* align-items: center; */
-   
+    /*align-items: center; */
+    
+}
+
+.image_from_section img { /*! нужен было именно так сделать, почему не знаю!!!!*/
+    vertical-align: middle
 }
 
 .what_can_do ul {
@@ -326,6 +330,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     
 }
 
+.ward_animals__card:nth-child(1) { /*! класс именно тех элементов, среди который выбираешь*/
+    opacity: 0.4;
+}
+
+.ward_animals__card:nth-child(3) {
+    opacity: 0.4;
+}
+
+
 .ward_animals__card {
     height: 555px;
     /* width: 368px; */
@@ -373,7 +386,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-size: 14px;
     line-height: 20px;
     color: #242424;
-    flex: 1 1 auto;
+    flex: 1 1 auto; /*! растянули блок к низу*/
 } 
 
 .ward_animals__card a {
@@ -387,6 +400,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     text-decoration-line: underline;
     color: #AD7F00;
 }
+
+.warm_animals__nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 256px 77px 256px;
+    text-align: center;
+    align-items: center;
+}
+
+.animals-nav_links {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
@@ -404,14 +432,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* Указываем что наши линии будут строчно-блочные и 
     ** выравнивание по высоте - по центру */
     display: inline-block;
-    /* vertical-align: middle;*/ /*! почемуто работает и без него */
-    /* Задаем ширину 100% и выбираем высоту линии, 
+    /*vertical-align: middle;*/ /*! почемуто работает и без него */
+        /* Задаем ширину 100% и выбираем высоту линии, 
     ** в нашем примере она равна 4 пикселям */
     width: 100%;
     height: 1px;
     /* Добавляем цвет для линии */
     background-color: #EEBF3A;
-    border: 1px solid  #EEBF3A;
+    /* border: 1px solid  #EEBF3A; */
     transform: rotate(180deg);
     /* Добавляем пседоэлемантам возможность изменить 
     ** позицию линии, для создания отступов от текста */
@@ -421,7 +449,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* Смещаем левую линию на 100% влево, чтобы линия 
     ** встала рядом с текстом слева */
     margin-left: -100%;
-    margin-top: 70px; /*! ставил, т.к. с vertical-align: middle не работало центрирование*/
+    /*margin-top: 70px;*/ /*! ставил, т.к. с vertical-align: middle не работало центрирование*/
     /* Указываем в пикселях отступ линии от текста заголовка */
     left: -34px;
 }
@@ -429,8 +457,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* Смещаем правую линию на 100% вправо, чтобы 
     ** линия встала рядом с текстом справа */
     margin-right: -100%;
-    margin-top: 70px;
-    /* Указываем в пикселях отступ линии от текста заголовка */
+    /* margin-top: 70px; */
+        /* Указываем в пикселях отступ линии от текста заголовка */
     right: -34px;
 }
 
