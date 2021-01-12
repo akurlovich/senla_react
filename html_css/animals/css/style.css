@@ -404,7 +404,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .warm_animals__nav {
     display: flex;
     justify-content: space-between;
-    margin: 25px 256px 77px 256px;
+    margin: 15px 256px 77px 256px;
     text-align: center;
     align-items: center;
 }
@@ -412,10 +412,70 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .animals-nav_links {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
+.animals-nav_links a:nth-child(1) {
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 58px;
+    height: 42px;
+    width: 209px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #242424;
+    margin-bottom: 16px;
 
+}
 
+.animals-nav_links a:nth-child(2) {
+    background: #F6F6F6;
+    background: #F6F6F6;
+    box-shadow: 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 58px;
+    align-items: center;
+    text-align: center;
+    height: 42px;
+    width: 298px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+     color: #242424;
+
+}
+
+.ward_animals__socials ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 77px 263px 71px 304px;
+}
+
+.ward_animals__socials li:nth-child(1) {
+    margin-right: 20px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    Width: 583px;
+    Height: 48px;
+}
+
+.ward_animals__socials li:nth-child(2) {
+    /* padding-left: 20px; */
+}
 
 
 
