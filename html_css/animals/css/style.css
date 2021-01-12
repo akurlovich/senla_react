@@ -249,10 +249,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .image_from_section {
-    width: 100%;
+    /* width: 100%; */
     /* display: inline-block; */
-    text-align: center;
-    align-items: center;
+    text-align: center; /*отцентрировало картинку в блоке*/
+    /* align-items: center; */
    
 }
 
@@ -266,7 +266,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* Указываем что наши линии будут строчно-блочные и 
     ** выравнивание по высоте - по центру */
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle;*/ /*! почемуто работает и без него */
     /* Задаем ширину 100% и выбираем высоту линии, 
     ** в нашем примере она равна 4 пикселям */
     width: 100%;
@@ -283,7 +283,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* Смещаем левую линию на 100% влево, чтобы линия 
     ** встала рядом с текстом слева */
     margin-left: -100%;
-    margin-top: 70px;
+    margin-top: 70px; /*! ставил, т.к. с vertical-align: middle не работало центрирование*/
     /* Указываем в пикселях отступ линии от текста заголовка */
     left: -34px;
 }
