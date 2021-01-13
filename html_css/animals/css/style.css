@@ -635,6 +635,38 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #242424;
 }
 
+.volunteering__conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.volunteering_img {
+    flex: 0 0 50%;
+}
+ 
+.volunteering__conteiner h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-top: 112px;
+    margin-bottom: 24px;
+}
+
+.volunteering__conteiner p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    display: block;
+    margin-right: 207px;
+}
+
+
 
 
 
