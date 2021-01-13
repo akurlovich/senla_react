@@ -681,6 +681,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin: 24px 0 162px 0;
 }
 
+.news {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.news__block { /*! вроде оптимальный вариант центрирования*/
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    max-width: 778px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.news h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    color: #242424;
+
+}
 
 
 
@@ -692,6 +722,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 
+
+
+/*!вынести h3 отдельным блоком*/
 
 
 .image_from_section:before,
