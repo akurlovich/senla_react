@@ -560,6 +560,43 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #AD7F00;
 }
 
+.necessary-things__conteiner {
+    max-width: 680px;
+    margin: 53px auto 78px;
+}
+
+.necessary-things__conteiner h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    color: #242424;
+    margin-bottom: 24px;
+
+}
+
+.necessary-things__conteiner p {
+    margin-bottom: 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+
+.necessary-things__conteiner a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    color: #AD7F00;
+}
+
+
 
 
 
