@@ -865,6 +865,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-right: 40px;
 }
 
+.footer-nav__links a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* text-align: center;
+    text-decoration-line: underline; */
+    color: #474747;
+}
+
+.footer-nav__links-about a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #242424;
+}
+
 .footer-nav__links li:nth-child(5) {
     padding-right: 0;
 }
@@ -872,6 +893,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .footer p {
     text-align: center;
     margin-bottom: 16px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B3B3B3;
+
 }
 
 
