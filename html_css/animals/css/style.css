@@ -220,6 +220,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* background: #FFC41E; */
 }
 
+.kind_hearts_img__circle-small {
+    width: 245px;
+    height: 245px;
+    margin-top: -200px;
+    margin-left: 383px;
+    border: 9px solid #FFC41E;
+    border-radius: 50%;
+}
+
 .kind_hearts_title {
     margin-top: 128px;
 }
