@@ -167,6 +167,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     top: 470px;
 }
 
+.img_header_text {
+    position: absolute;
+    z-index: 1;
+    left: 2px;
+    top: 374px;
+}
+
 .kind_hearts {
     height: 650px;
     background: #FFFFFF;
