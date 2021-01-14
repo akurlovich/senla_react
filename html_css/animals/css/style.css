@@ -39,7 +39,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     justify-content: space-between;
     margin-left: 110px;
-    margin-right: 200px;
+    margin-right: 190px;
+    padding-top: 25px;
     z-index: 3;
     position: relative;
     
@@ -62,6 +63,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #242424;
 }
 
+.menu li:last-child {
+    padding-right: 0;
+}
+
 .menu a {
     font-family: Gilroy;
     font-style: normal;
@@ -71,9 +76,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #242424;
 }
 
+.menu-nav_social img {
+    width: 83px;
+    height: 83px;
+}
+
 .header_title {
     position: relative;
     margin-left: 110px;
+    margin-top: 60px;
     height: 736px; /*!скорее всего не привильно*/
     z-index: 3;
     
