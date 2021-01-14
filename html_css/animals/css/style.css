@@ -819,6 +819,35 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-radius: 50%;
 }
 
+.thanks-for-help {
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.thanks-for-help_text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 134px;
+    top: 303px;
+    width: 346px;
+    height: 154px;
+}
+
+.thanks-for-help_text img {
+    position: absolute;
+    width: 70.73px;
+    height: 70.73px;
+    left: 350px;
+    top: 85px;
+
+    transform: rotate(18.79deg);
+}
 
 
 
