@@ -151,12 +151,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     position: absolute;
     width: 718px;
     height: 713px;
-    left: 538px;
+    right: 110px;
+    /* left: 538px; */
     top: 0px;
     background: url(/html_css/animals/img/dog\ 1.png);
     border-radius: 0px 0px 8px 8px;
     opacity: 1;
     z-index: 1;
+}
+
+.img_header_cat {
+    position: absolute;
+    z-index: 19;
+    right: 276px;
+    top: 470px;
 }
 
 .kind_hearts {
