@@ -750,6 +750,74 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-bottom: 5px;
 }
 
+.about_us {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.about_us h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    color: #242424;
+    margin: 58px 0 24px 0;
+
+}
+
+.about_us__text-about {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+
+}
+
+.about_us__text-title {
+    margin: 24px 0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #242424;
+}
+
+.about_us__text-contacts {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin-bottom: 40px;
+}
+
+.about_us__text-social {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6B6B6B;
+}
+
+
+.about_us ul {
+    display: flex;
+    
+
+}
+
+.about_us__social-link img {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+}
 
 
 
