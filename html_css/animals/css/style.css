@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .kind_hearts {
-    height: 650px;
+    /* height: 650px; */
     background: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -205,6 +205,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 341px;
     height: 521px;
     background: #FFC41E;
+    margin-top: 54px;
+    margin-bottom: 74px;
+}
+
+.kind_hearts_img__circle-big {
+    width: 521px;
+    height: 521px;
+    margin-top: 0;
+    margin-left: 78px;
+    border: 34px solid #FFC41E;
+    border-radius: 50%;
+    /* border-color: #FFC41E; */
+    /* background: #FFC41E; */
 }
 
 .kind_hearts_title {
