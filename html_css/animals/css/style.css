@@ -198,6 +198,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .kind_hearts_img {
     flex: 0 0 50%;
+    
+}
+
+.kind_hearts_img__rectangle {
+    width: 341px;
+    height: 521px;
+    background: #FFC41E;
 }
 
 .kind_hearts_title {
