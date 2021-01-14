@@ -67,6 +67,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-right: 0;
 }
 
+.menu-nav_social li:first-child {
+    padding-right: 0;
+}
+
 .menu a {
     font-family: Gilroy;
     font-style: normal;
