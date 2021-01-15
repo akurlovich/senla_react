@@ -274,12 +274,12 @@ input[type='radio']:checked::after {
 }
 
 
-/* input:focus::placeholder { 
+input:focus::placeholder { 
     font-size: 12px; 
     transform: translateY(-21px); 
-    
-    
-  } */
+       
+}
+
 
 /* input[type="checkbox" i] {
     margin: 0px 0 0 0;
