@@ -4,7 +4,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family: Gilroy;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .title_header {
-    font-family: Gilroy;
+    /* font-family: Gilroy; */
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .title_text_one {
-    font-family: Gilroy;
+    /* font-family: Gilroy; */
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -116,7 +116,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .title_text_two {
-    font-family: Gilroy;
+    /* font-family: Gilroy; */
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -126,7 +126,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .title_text_three {
-    font-family: Gilroy;
+    /* font-family: Gilroy; */
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -997,7 +997,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 
-/*!вынести h3 отдельным блоком*/
+/*!вынести h3 отдельным блоком. убрать font-family*/
 
 
 .image_from_section:before,
