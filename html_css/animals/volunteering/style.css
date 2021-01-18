@@ -382,8 +382,12 @@ textarea {
 .send {
     height: 42px;
     width: 234px;
-    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    /* background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02); */
+
+    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+
     border-radius: 58px;
     font-style: normal;
     font-weight: 500;
@@ -411,9 +415,22 @@ textarea {
 }
 
 .send:hover {
-    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
-    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    /* background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25); */
     /* border-radius: 58px; */
+
+    background: linear-gradient(180deg, #FFEEBC 0%, #FFE69F 36.46%, #FFCF48 68.23%, #FFC317 100%);
+    /* box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25); */
+    box-shadow: 7px 7px 16px #E0E0E0, -3px -4px 8px #FFFFFF, inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+
+    color: #000000;
+}
+
+.send:active {
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    color: #242424;
+
 }
 
 .cancel {
@@ -444,6 +461,17 @@ textarea {
     border: 1px solid #18A0FB; */
     
 }
+
+.cancel:hover {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 53.12%, #EFECEC 100%);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
+}
+
+.cancel:active {
+    background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
+    box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
+}
+
 .button {
     display: flex;
     flex-direction: row;
