@@ -909,14 +909,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     transform: rotate(18.79deg);
 }
 
-.thanks-for-help_bg {
-    opacity: 0.85;
-}
+/* .thanks-for-help_bg {
+    opacity: 1;
+} */
 
 .thanks-for-help__img-rectangle {
     margin-top: -620px;
     background: #322D1E;
     /* opacity: 2; */
+    mix-blend-mode: soft-light;
     
 }
 
