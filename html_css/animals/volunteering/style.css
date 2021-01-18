@@ -379,6 +379,16 @@ textarea {
     margin: 32px 0 32px 0;
 }
 
+textarea:hover {
+    border: 1px solid #FFC41E;
+    /* border-radius: 2px; */
+}
+
+textarea:focus {
+    border: 2px solid #FFC41E;
+    /* border-radius: 2px; */
+}
+
 .send {
     height: 42px;
     width: 234px;
