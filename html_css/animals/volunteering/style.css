@@ -37,12 +37,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     position: absolute;
 }
 
-.header {
-    width: 388px;
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* width: 388px;
     height: 42px;
-    left: 10px;
+    left: 10px; */
 }
-.header h3 {
+.modal-header h3 {
     /* font-family: Gilroy; */
     font-style: normal;
     font-weight: 600;
@@ -50,10 +53,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     line-height: 24px;
     /* or 86% */
 
-    display: flex;
-    align-items: center;
-    margin: 0 0 0 0;
+    /* display: flex;
+    align-items: center; */
+    /* margin: 0 0 0 0; */
     color: #B3B3B3;
+}
+
+.modal-header img {
+    background-color: #FFF;
 }
 
 .line {
@@ -212,6 +219,11 @@ label {
     color: #6B6B6B;
 }
 
+.label_checked {
+    display: inline-block;
+    max-width: 380px;
+}
+
 input[type='radio'],
 label {
   cursor: pointer;
@@ -277,7 +289,16 @@ input[type='radio']:checked::after {
 input:focus::placeholder { 
     font-size: 12px; 
     transform: translateY(-21px); 
+    /* z-index: 10; */
        
+}
+
+input[type='radio']:checked + label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
 }
 
 
