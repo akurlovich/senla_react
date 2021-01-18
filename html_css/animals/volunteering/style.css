@@ -37,29 +37,35 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     position: absolute;
 }
 
-.modal-header {
+.modal-windows-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    /* width: 388px;
-    height: 42px;
-    left: 10px; */
-}
-.modal-header h3 {
-    /* font-family: Gilroy; */
+
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
+    color: #B3B3B3;
+    /* width: 388px;
+    height: 42px;
+    left: 10px; */
+}
+/* .modal-windows-header h3 { */
+    /* font-family: Gilroy; */
+    /* font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px; */
     /* or 86% */
 
     /* display: flex;
     align-items: center; */
     /* margin: 0 0 0 0; */
-    color: #B3B3B3;
-}
+    /* color: #B3B3B3; */
+/* } */
 
-.modal-header img {
+.modal-windows-header img {
     background-color: #FFF;
 }
 
@@ -367,7 +373,7 @@ input[type='radio']:checked + label {
     top: -8px;
 } */
 
-textarea {
+.modal-windows-textarea {
     height: 76px;
     width: 100%;
     background: #FFFFFF;
@@ -379,12 +385,12 @@ textarea {
     margin: 32px 0 32px 0;
 }
 
-textarea:hover {
+.modal-windows-textarea:hover {
     border: 1px solid #FFC41E;
     /* border-radius: 2px; */
 }
 
-textarea:focus {
+.modal-windows-textarea:focus {
     border: 2px solid #FFC41E;
     /* border-radius: 2px; */
 }
