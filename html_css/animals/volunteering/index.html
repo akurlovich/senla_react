@@ -8,43 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="volunteering-wrapper">
+    <div class="volunteering-wrapper modal-windows-wrapper">
         <div class="body">
             <div class="volunteering-header modal-windows-header">
                 <h3>Волонтерство</h3>
                 <button><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
             </div>
-            <div class="line"></div>
-            <p class="header_form">Заявка</p>
+            <div class="modal-windows__under-header-line"></div>
+            <p class="modal-windows__title">Заявка</p>
             <section>
-                <div class="text">
+                <div class="modal-windows__title-text">
                     <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
                 </div>
                 <form action="#" method="post">
-                    <input class="first_input" type="text" name="" id="name" placeholder="Фамилия и имя">
-                    <input class="first_input" type="tel" name="" id="phone" placeholder="Номер телефона">
+                    <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                    <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
                     <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
-                    <p class="for_input">Обязательное поле для заполнения</p>
-                    <div class="radio-position">
-                        <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="label_checked">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
+                    <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                    <div class="modal-windows__input-radio">
+                        <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="modal-windows__input-radio-label">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
                     </div>
                     
-                    <div class="radio-position">
-                        <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="label_checked">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
+                    <div class="modal-windows__input-radio">
+                        <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="modal-windows__input-radio-label">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
                     </div>
-
-                 
                     <textarea class="modal-windows-textarea" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                    <div class="modal-windows__buttons">
+                        <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                        <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                    </div>
                 </form>
             </section>
-            <footer>
-                <div class="button">
-                    <button class="send" type="submit">Отправить заявку</button>
-                    <button class="cancel" type="reset">Отмена</button>
-                </div>
-            </footer>
         </div>
-
     </div>
     
 </body>
