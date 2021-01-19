@@ -417,7 +417,7 @@ input[type='radio']:checked + label {
     box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
 }
 
-.btn-white--instagram img,
+/* .btn-white--instagram img, */
 .btn-white--vk img {
     background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
     box-shadow: 3px 3px 13px #B1B1B1;
@@ -433,4 +433,22 @@ input[type='radio']:checked + label {
 .btn-white--vk img:active {
     background: linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
     box-shadow: 3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
+}
+
+.in-img {
+    width: 49px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
+    box-shadow: 3px 3px 13px #B1B1B1;
+    border-radius: 50%;
+}
+
+.in-img img {
+    width: 30px;
+    height: 100%;
+    
 }
