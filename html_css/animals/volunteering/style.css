@@ -146,6 +146,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     align-items: center;
     color: #B3B3B3;
 }
+
+.modal-windows__wrong-number { /*! сообщение об ошибке*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #B40000;
+    padding-left: 10px;
+    display: none;
+}
+
 /* 
 .header_time {
     margin: 22px 0 16px 0;
@@ -331,8 +342,6 @@ input[type='radio']:checked + label {
     border: 2px solid #FFC41E;
     /* border-radius: 2px; */
 }
-
-
 
 
 /* input[type="checkbox" i] {
