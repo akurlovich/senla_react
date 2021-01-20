@@ -513,13 +513,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .ward_animals__socials ul {
     display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 77px 263px 71px 304px;
+    justify-content: center;
+    /* align-items: center;
+    text-align: center; */
+    /* margin: 77px 263px 71px 304px; */
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 71px;
 }
 
 .ward_animals__socials li:nth-child(1) {
-    margin-right: 20px;
+    margin-right: 38px;
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
@@ -530,6 +534,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     Width: 583px;
     Height: 48px;
 }
+
+.ward_animals__socials li:nth-child(2) {
+    margin-right: 28px;
+}
+
+
 
 .finance-help {
     background: #FFFFFF;
