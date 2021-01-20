@@ -540,7 +540,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 
-
 .finance-help {
     background: #FFFFFF;
     padding-top: 45px;
@@ -879,14 +878,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .about_us ul {
     display: flex;
-    
-
 }
 
-.about_us__social-link img {
-    width: 83px;
-    height: 83px;
-    border-radius: 50%;
+.about_us__social-link li:first-child {
+    margin-right: 20px;
 }
 
 .thanks-for-help {
