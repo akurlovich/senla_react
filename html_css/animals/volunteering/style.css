@@ -380,8 +380,7 @@ input[type='radio']:checked + label {
     border-radius: 50%;
 }
 
-.nav-btn--vk a,
-.nav-btn--instagram a {
+.btn-social--white a {
     
     background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
     box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F;
@@ -402,11 +401,6 @@ input[type='radio']:checked + label {
     box-shadow: 2px 2px 6px #C18F00, inset 3px 3px 10px rgba(199, 129, 0, 0.59);
 }
 
-.btn-social--white a {
-    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
-    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
-}
-
 .btn-social-bg {
     width: 49px;
     height: 49px;
@@ -416,6 +410,11 @@ input[type='radio']:checked + label {
     align-items: center;
     
     border-radius: 50%;
+}
+
+.btn-social--white a {
+    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
+    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
 }
 
 .btn-social-bg--white {
