@@ -293,7 +293,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     flex-direction: column;
     /* justify-content: space-between; */
     width: 166px;
-    height: 240px; 
+    max-height: 240px; 
     text-align: center;
     font-family: Gilroy;
     font-style: normal;
@@ -914,21 +914,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     transform: rotate(18.79deg);
 }
 
-/* .thanks-for-help_bg {
-    opacity: 1;
-} */
+.thanks-for-help_bg {
+    max-width: 100%;
+}
 
 .thanks-for-help__img-rectangle {
     margin-top: -620px;
     background: #322D1E;
     /* opacity: 2; */
     mix-blend-mode: soft-light;
-    
+        
 }
 
 .thanks-for-help__img-circle {
-    width: 521px;
-    height: 521px;
+    max-width: 521px;
+    max-height: 521px;
     margin-top: 0;
     margin-left: 78px;
     border: none;
@@ -1062,6 +1062,41 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     background: linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
     box-shadow: 3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
 }
+
+/**-------- кнопки раздела как помочь--------*/
+
+.how-help__btn-img a {
+    display: flex;
+    justify-content: center; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #F6F6F6;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
+}
+
+.how-help__btn-img img {
+    width: 50%;
+}
+
+.how-help__btn-img a:hover {
+    border: none;
+    background: #FBFBFB;;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
+}
+
+.how-help__btn-img a:active {
+    background: linear-gradient(136.02deg, #FDFDFD 0%, #EAEAEA 72.75%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: -6px -6px 16px rgba(224, 224, 224, 0.6), 6px 6px 16px rgba(255, 255, 255, 0.77);
+}
+
+
+
+
 
 
 /*!вынести h3 отдельным блоком. убрать font-family*/
