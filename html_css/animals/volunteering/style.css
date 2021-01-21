@@ -316,14 +316,8 @@ input[type='radio']:checked + label {
 } */
 
 .modal-windows__send-btn:hover {
-    /* background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
-    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25); */
-    /* border-radius: 58px; */
-
     background: linear-gradient(180deg, #FFEEBC 0%, #FFE69F 36.46%, #FFCF48 68.23%, #FFC317 100%);
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
-    /* box-shadow: 7px 7px 16px #E0E0E0, -3px -4px 8px #FFFFFF, inset 13px 22px 8px rgba(0, 0, 0, 0.02); */
-
     color: #000000;
 }
 
@@ -369,21 +363,7 @@ input[type='radio']:checked + label {
     align-items: center;
     justify-content: center;
 
-    /* border-radius: 6px;
-    background: #FFFFFF;
-    border-color: #18A0FB;
-    border-radius: 6px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #18A0FB;
-    border: 1px solid #18A0FB; */
-    
+      
 }
 
 .modal-windows__cancel-btn:hover {
