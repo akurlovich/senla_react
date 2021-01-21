@@ -302,12 +302,14 @@ input[type='radio']:checked + label {
     line-height: 40px;
     align-items: center;
     color: #242424;
-}
-
-.volunteering__send-btn {
     height: calc(100% - 10px);
     width: calc(100% - 10px);
 }
+
+/* .volunteering__send-btn {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+} */
 
 .modal-windows__send-btn:hover {
     /* background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
