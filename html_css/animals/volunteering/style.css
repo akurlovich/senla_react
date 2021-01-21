@@ -305,8 +305,8 @@ input[type='radio']:checked + label {
 }
 
 .volunteering__send-btn {
-    height: 42px;
-    width: 234px;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
 }
 
 .modal-windows__send-btn:hover {
