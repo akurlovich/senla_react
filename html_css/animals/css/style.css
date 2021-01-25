@@ -193,6 +193,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* height: 650px; */
     background: #FFFFFF;
     display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     /* flex-direction: row; */
     /* width: 100%; */
 }
@@ -268,7 +270,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    height: 470px;
+    /* height: 470px; */
     width: 100%;
     background: #F6F6F6;
 }
@@ -296,6 +298,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     flex-wrap:wrap;
     /* margin: 0 118px 86px 118px; */
     /* align-items: center; */
+    margin-bottom: 86px;
     
 
 }
