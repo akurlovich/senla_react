@@ -87,15 +87,38 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 @media (max-width: 768px) {
     .burger-icon {
         display: block;
+        background-color: #FFC41E;
+        padding-top: 34px;
+        padding-left: 115px;
+        padding-bottom: 26px;
+        /* position: absolute; */
+    }
+    .burger-icon svg {
+        cursor: pointer;
     }
     .menu-nav_social li {
         display: none;
     }
     .menu {
         display: block;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
     .menu ul {
         display: block;
+        text-align: center;
+        background-color: #FFFFFF;
+    }
+    .menu li {
+        padding: 0;
+        padding-top: 35px;
+        padding-bottom: 45px;
+        border-bottom: 1px solid #FFC41E;
     }
 
 }
