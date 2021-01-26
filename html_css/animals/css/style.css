@@ -47,6 +47,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     
 }
 
+.burger-icon {
+    display: none;
+}
+
 .menu ul {
     display: flex;
     /* flex-direction: row; */
@@ -78,6 +82,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-size: 16px;
     line-height: 19px;
     color: #242424;
+}
+
+@media (max-width: 768px) {
+    .burger-icon {
+        display: block;
+    }
+    .menu-nav_social li {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu ul {
+        display: block;
+    }
+
 }
 
 /* .menu-nav_social img {
