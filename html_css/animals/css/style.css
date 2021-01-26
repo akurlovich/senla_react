@@ -118,11 +118,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         top: 0;
         left: 0;
         width: 100%;
+        background-color: #FFFFFF;
     }
     .menu ul {
         display: block;
         text-align: center;
         background-color: #FFFFFF;
+        /* margin-block-start: 0;
+        margin-block-end: 0; */
     }
     .menu li {
         padding: 0;
