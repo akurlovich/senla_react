@@ -340,8 +340,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .how_help_header {
-    font-family: Gilroy;
-    font-style: normal;
+    /* font-family: Gilroy;
+    font-style: normal; */
     font-weight: 300;
     font-size: 28px;
     line-height: 24px;
@@ -363,6 +363,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     /* margin: 0 118px 86px 118px; */
     /* align-items: center; */
     margin-bottom: 86px;
+    padding: 0 30px 0 30px;
     
 
 }
@@ -375,15 +376,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 166px;
     max-height: 240px; 
     text-align: center;
-    font-family: Gilroy;
-    font-style: normal;
+    /* font-family: Gilroy;
+    font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
+    /* margin-left: 20px; */
+    margin: 0 30px 0 30px;
 }
 
 .how_help_items p {
     margin-top: 24px;
+    /* margin-left: 20px; */
 }
 
 .image_from_section {
@@ -1147,6 +1151,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 /**-------- кнопки раздела как помочь--------*/
+
 
 .how-help__btn-img a {
     display: flex;
