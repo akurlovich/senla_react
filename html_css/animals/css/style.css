@@ -4,7 +4,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family: Gilroy;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family: Gilroy;font-style: normal;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -49,18 +49,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .menu ul {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
 }
 
 .menu li {
     padding-right: 32px;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
+    /* font-family: Gilroy; */
+    /* font-style: normal; */
+    /* font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    color: #242424;
+    color: #242424; */
 }
 
 .menu li:last-child {
@@ -72,8 +72,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .menu a {
-    font-family: Gilroy;
-    font-style: normal;
+    /* font-family: Gilroy; */
+    /* font-style: normal; */
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
