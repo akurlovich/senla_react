@@ -55,6 +55,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: none;
 }
 
+
+
 .menu ul {
     display: flex;
     /* flex-direction: row; */
@@ -87,6 +89,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     line-height: 19px;
     color: #242424;
 }
+
 
 @media (max-width: 768px) {
     .nav-mobile-bg {
@@ -124,9 +127,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         width: 100%;
         /* background-color: #FFFFFF; */
     }
-    .bg-in-nav-menu-ul {
+    /* .bg-in-nav-menu-ul {
         background-color: #FFFFFF;
-    }
+    } */
     .menu ul {
         display: block;
         text-align: center;
