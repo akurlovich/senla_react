@@ -91,6 +91,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-top: 34px;
         padding-left: 115px;
         padding-bottom: 26px;
+        /* border-bottom: 1px solid #FFC41E; */
         /* position: absolute; */
     }
     .burger-icon svg {
@@ -116,9 +117,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .menu li {
         padding: 0;
+        padding-top: 25px;
+        padding-bottom: 24px;
+        margin: 0 110px 0 110px;
+        border-bottom: 1px solid rgba(238, 191, 58, 0.5);;
+    }
+    .menu .nav-link-first {
         padding-top: 35px;
+    }
+    .menu .nav-link-last {
         padding-bottom: 45px;
-        border-bottom: 1px solid #FFC41E;
+        border: none;
     }
 
 }
