@@ -85,6 +85,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 @media (max-width: 768px) {
+    .nav-mobile-bg {
+        width: 100vh;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);;
+        position: fixed;
+        z-index: 9;
+        /* opacity: 0.4; */
+
+    }
     .burger-icon {
         display: block;
         background-color: #FFC41E;
