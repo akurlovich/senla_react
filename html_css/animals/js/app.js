@@ -18,3 +18,12 @@ document.querySelector('.burger-icon-click-close').addEventListener('click', () 
     });
     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
 });
+
+/*--окно волонтерство */
+document.querySelector('.volunteering-open').addEventListener('click', () => {
+    document.querySelector('.modal-windows__volunteering').classList.toggle('volunteering-active');
+});
+
+document.querySelector('.volunteering-close-window').addEventListener('click', () => {
+    document.querySelector('.modal-windows__volunteering').classList.toggle('volunteering-active');
+});
