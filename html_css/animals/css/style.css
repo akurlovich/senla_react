@@ -113,6 +113,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .burger-icon svg {
         cursor: pointer;
+        transition: all 0.4s;
+    }
+    .burger-icon svg:active {
+        transform: rotate(180deg);
     }
     .menu-nav_social li {
         display: none;
