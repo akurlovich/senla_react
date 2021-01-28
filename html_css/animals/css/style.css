@@ -186,11 +186,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 }
 
-/* .menu-nav_social img {
-    width: 83px;
-    height: 83px;
-} */
-
 .header_title {
     position: relative;
     margin-left: 110px;
@@ -1120,6 +1115,43 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #B3B3B3;
 
 }
+
+@media (min-width: 1024px) and (max-width: 1269px) {
+    /* .wrapper {
+        max-width: 1269px;
+    } */
+    .header_title {
+        height: 511px;
+        margin-top: 33px;
+    }
+    .title_header {
+        font-size: 64px;
+        line-height: 77px;
+    }
+    .img_header {
+        width: 504px;
+        height: 564px;
+        background-size: cover;
+    }
+    .title_text_one,
+    .title_text_two {
+        font-size: 14px;
+    }
+    .title_text_three {
+        font-size: 20px;
+    }
+    .img_header_cat {
+        top: 374px;
+        right: 217px;
+    }
+    .img_header_cat img{
+        width: 344px;
+        height: 326px;
+        object-fit: cover;
+    }
+}
+
+
 
 /** -------------кнопки соцсетей--------------------*/
 
