@@ -1,15 +1,18 @@
+/* eslint-disable indent */
+/* eslint-disable one-var */
+/* eslint-disable semi */
 'use strict()';
 
 const menuShow = document.querySelectorAll('.mobile-menu-view'),
+      // eslint-disable-next-line no-unused-vars
       menuClick = document.querySelector('.burger-icon-click'),
       modalActive = 'modal-window-active'; // класс с display: block
 
-//*--открытие мобильного меню--//
+// *--открытие мобильного меню--//
 
 document.querySelector('.burger-icon-click').addEventListener('click', () => {
     menuShow.forEach(e => {
         e.classList.toggle('mobile-menu-show');
-
     });
     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
 });
@@ -22,7 +25,7 @@ document.querySelector('.burger-icon-click').addEventListener('click', () => {
 //     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
 // });
 
-//*-----------------------окно волонтерство */
+// *-----------------------окно волонтерство */
 // document.querySelector('.volunteering-open').addEventListener('click', () => {
 //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
 //     document.body.style.overflow = 'hidden';
