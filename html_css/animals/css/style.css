@@ -1155,6 +1155,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .img_header_text img {
         width: 571px;
     }
+    .kind_hearts_img {
+        flex: 0 0 510px;
+    }
     .kind_hearts_img__rectangle {
         margin-top: 36px;
         width: 267px;
@@ -1164,6 +1167,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         width: 362px;
         height: 362px;
         border: 20px solid #FFC41E;
+    }
+    .kind_hearts_img__circle-small {
+        width: 170px;
+        height: 170px;
+        margin-top: -156px;
+        margin-left: 299px;
+        border: 6px solid #FFC41E;
+    }
+    .kind_hearts_title {
+        margin-top: 75px;
+        padding-right: 100px;
+    }
+    .kind_title_header {
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 24px;
     }
 
 }
