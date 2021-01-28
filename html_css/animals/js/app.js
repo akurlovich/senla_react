@@ -1,3 +1,5 @@
+'use strict()';
+
 const menuShow = document.querySelectorAll('.mobile-menu-view'),
       menuClick = document.querySelector('.burger-icon-click');
 
@@ -21,9 +23,11 @@ document.querySelector('.burger-icon-click-close').addEventListener('click', () 
 
 /*--окно волонтерство */
 document.querySelector('.volunteering-open').addEventListener('click', () => {
-    document.querySelector('.modal-windows__volunteering').classList.toggle('volunteering-active');
+    document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
+    document.body.style.overflow = 'hidden';
 });
 
 document.querySelector('.volunteering-close-window').addEventListener('click', () => {
-    document.querySelector('.modal-windows__volunteering').classList.toggle('volunteering-active');
+    document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
+    document.body.style.overflow = '';
 });
