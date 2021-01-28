@@ -1149,6 +1149,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         height: 326px;
         object-fit: cover;
     }
+    .img_header_text {
+        top: 310px;
+    }
+    .img_header_text img {
+        width: 571px;
+    }
+    .kind_hearts_img__rectangle {
+        margin-top: 36px;
+        width: 267px;
+        height: 362px;
+    }
+
 }
 
 
