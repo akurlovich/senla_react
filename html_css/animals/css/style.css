@@ -51,9 +51,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: none;
 }
 
-.nav-mobile-close-btn {
+/* .nav-mobile-close-btn {
     display: none;
-}
+} */
 
 
 
@@ -100,7 +100,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         z-index: 9;
         /* opacity: 0.4; */
         /* display: none; */
-
     }
     .burger-icon {
         display: block;
@@ -156,29 +155,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-bottom: 45px;
         border: none;
     }
-    .nav-mobile-close-btn {
+    /* .nav-mobile-close-btn {
         display: none;
-        /* background: transparent; */
         background-color: rgba(0, 0, 0, 0);
-        /* text-align: center; */
         align-items: center;
         justify-content: center;
         color: #FFFFFF;
         padding-top: 24px;
         padding-left: 10px;
-    }
-    .nav-mobile-close-btn-show {
+    } */
+    /* .nav-mobile-close-btn-show {
         display: flex;
-    }
+    } */
 
-    .nav-mobile-close-btn span {
+    /* .nav-mobile-close-btn span {
         font-weight: 500;
         font-size: 18px;
         line-height: 24px;
     }
     .nav-mobile-close-btn svg {
         cursor: pointer;
-    }
+    } */
     .mobile-menu-view {
         /* display: block; */
         display: none;
@@ -346,6 +343,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .kind_hearts_title {
     margin-top: 128px;
+    padding-right: 20px;
     /* flex: 0 0 auto; */
    /* max-width: 50%; */
     /* width: 50%; */

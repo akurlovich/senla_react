@@ -1,9 +1,10 @@
 'use strict()';
 
 const menuShow = document.querySelectorAll('.mobile-menu-view'),
-      menuClick = document.querySelector('.burger-icon-click');
+      menuClick = document.querySelector('.burger-icon-click'),
+      modalActive = 'modal-window-active'; // класс с display: block
 
-console.log(menuShow);
+//*--открытие мобильного меню--//
 
 document.querySelector('.burger-icon-click').addEventListener('click', () => {
     menuShow.forEach(e => {
@@ -21,22 +22,31 @@ document.querySelector('.burger-icon-click-close').addEventListener('click', () 
     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
 });
 
-/*--окно волонтерство */
+//*-----------------------окно волонтерство */
 // document.querySelector('.volunteering-open').addEventListener('click', () => {
 //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
 //     document.body.style.overflow = 'hidden';
 // });
 
-document.querySelector('.volunteering-close-window').addEventListener('click', () => {
-    document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
-    document.body.style.overflow = '';
-});
+// document.querySelector('.volunteering-close-window').addEventListener('click', () => {
+//     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
+//     document.body.style.overflow = '';
+// });
 
-function showModal (classClick, classWindow, classToggle) {
+function showModal (classClick, classWindow) {
     document.querySelector(classClick).addEventListener('click', () => {
-        document.querySelector(classWindow).classList.toggle(classToggle);
+        document.querySelector(classWindow).classList.toggle(modalActive);
         document.body.style.overflow = 'hidden';
     });
 }
 
-showModal('.volunteering-open', '.modal-windows__volunteering', 'modal-window-active');
+function closeModal (classClick, classWindow) {
+    document.querySelector(classClick).addEventListener('click', () => {
+        document.querySelector(classWindow).classList.toggle(modalActive);
+        document.body.style.overflow = '';
+    });
+}
+
+showModal('.volunteering-open', '.modal-windows__volunteering');
+
+closeModal('.volunteering-close-window', '.modal-windows__volunteering');
