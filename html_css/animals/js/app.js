@@ -15,6 +15,7 @@ document.querySelector('.burger-icon-click').addEventListener('click', () => {
         e.classList.toggle('mobile-menu-show');
     });
     document.querySelector('.burger-icon-click').classList.toggle('burger-icon-click--active');
+    document.querySelector('.burger-icon').classList.toggle('burger-icon--bg');
 });
 
 // document.querySelector('.burger-icon-click-close').addEventListener('click', () => {
