@@ -17,6 +17,16 @@ document.querySelector('.burger-icon-click').addEventListener('click', () => {
     document.querySelector('.burger-icon-click').classList.toggle('burger-icon-click--active');
     document.querySelector('.burger-icon').classList.toggle('burger-icon--bg');
     document.querySelector('.mobile-social-header-links').classList.toggle('mobile-social-header-links--hide');
+    if (document.body.style.overflow != 'hidden') {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = '';
+    }
+    if (document.querySelector('.menu').style.position != 'fixed') {
+        document.querySelector('.menu').style.position = 'fixed'
+    } else {
+        document.querySelector('.menu').style.position = '';
+    }
 });
 
 // document.querySelector('.burger-icon-click-close').addEventListener('click', () => {
