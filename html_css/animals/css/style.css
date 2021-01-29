@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .nav-mobile-bg {
         width: 100%;
         height: 100%;
@@ -1750,7 +1750,7 @@ input[type='radio']:checked + label {
     /* vertical-align: middle; */
     border-radius: 58px;
     background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    /* box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02); */
 
 }
 
