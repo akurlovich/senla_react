@@ -106,15 +106,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         /* display: none; */
     }
     .burger-icon {
-        display: block;
+        display: flex;
+        justify-content: space-between;
         /* background-color: #FFC41E; */
         /* background-color: #F6F6F6; */
         /* background-color: #F6F6F6; */
         padding-top: 34px;
         padding-left: 115px;
         padding-bottom: 26px;
+        padding-right: 157px;
         /* border-bottom: 1px solid #FFC41E; */
         /* position: absolute; */
+    }
+    .mobile-social-header-links {
+        display: flex;
+    }
+    .mobile-social-header-links .btn-social--yellow {
+        padding-right: 28px;
     }
     .burger-icon--bg {
         background-color: #FFC41E;
@@ -155,9 +163,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .burger-icon-click--active .burger__line-third {
         transform: translateY(-50%) rotate(-45deg)
     }
-
     .menu-nav_social li {
         display: none;
+        /* background-color: none; */
     }
     .menu {
         display: block;
