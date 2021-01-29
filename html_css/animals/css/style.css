@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 @media (max-width: 1023px) {
     .header .header_title {
         margin-top: 0;
-        padding-top: 80px;
+        /* padding-top: 80px; */
     }
     .nav-mobile-bg {
         width: 100%;
@@ -174,7 +174,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         display: block;
         margin: 0;
         padding: 0;
-        position: fixed;
+        /* position: fixed; */
         z-index: 10;
         top: 0;
         left: 0;
