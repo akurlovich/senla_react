@@ -1237,7 +1237,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         height: 60px;
         left: 250px;
         top: 65px;
-
+    }
+    .footer-nav {
+        flex-direction: column;
+    }
+    .footer-nav .footer-nav__links {
+        justify-content: space-between;
+        margin: 20px 110px 0 110px;
+    }
+    .footer-nav__links li {
+        padding: 0;
+        text-decoration: underline;
+    }
+    .footer-nav .footer-nav__links-about {
+        justify-content: left;
+        margin: 24px 110px 0 110px;
+    }
 }
 
 
