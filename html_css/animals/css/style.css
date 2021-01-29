@@ -1186,10 +1186,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .how_help_items div {
         margin: 0 10px 0 10px;
+        font-size: 14px;
         
     }
-    .what_can_do {
-        
+    .how_help_items .how-help__btn-img a {
+        width: 100px;
+        height: 100px;
     }
     .what_can_do ul {
         margin: 61px 0 48px 0;
@@ -1205,8 +1207,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .what_can_do li:first-child {
         margin-right: 69px;
-        
     }
+    .what_can_do h3 {
+        font-size: 24px;
+    }
+    .image_from_section img {
+        width: 100px;
+        height: 100px;
+    }
+    .volunteering__conteiner h3 {
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .thanks-for-help__img-rectangle {
+        margin-top: -450px;
+    }
+    .thanks-for-help__img-circle {
+        border: none;
+    }
+    .thanks-for-help_text {
+        top: 227px;
+        left: 100px;
+        font-size: 48px;
+        line-height: 58px;
+        width: 250px;
+    }
+    .thanks-for-help_text img {
+        width: 60px;
+        height: 60px;
+        left: 250px;
+        top: 65px;
 
 }
 
