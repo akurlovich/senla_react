@@ -124,6 +124,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .mobile-social-header-links .btn-social--yellow {
         padding-right: 28px;
     }
+    .mobile-social-header-links--hide {
+        display: none;
+    }
     .burger-icon--bg {
         background-color: #FFC41E;
     }
