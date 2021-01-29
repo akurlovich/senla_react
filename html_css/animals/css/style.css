@@ -1184,6 +1184,29 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-right: 45px;
         font-size: 24px;
     }
+    .how_help_items div {
+        margin: 0 10px 0 10px;
+        
+    }
+    .what_can_do {
+        
+    }
+    .what_can_do ul {
+        margin: 61px 0 48px 0;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+
+    }
+    .what_can_do li {
+        display: block;
+        max-width: 275px;
+        
+    }
+    .what_can_do li:first-child {
+        margin-right: 69px;
+        
+    }
 
 }
 
