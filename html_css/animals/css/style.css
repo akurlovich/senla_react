@@ -125,6 +125,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         background-color: #242424;
         position: absolute;
         left: 0;
+        transition: 0.3s all linear;
     }
     .burger__line-first {
         top: 0;
@@ -139,6 +140,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .burger-icon-click--active .burger__line-first, .burger-icon-click--active .burger__line-fourth {
         opacity: 0;
     }
+    .burger-icon-click--active .burger__line-second {
+        transform: translateY(-50%) rotate(45deg)
+    }
+    .burger-icon-click--active .burger__line-third {
+        transform: translateY(-50%) rotate(-45deg)
+    }
+
     .menu-nav_social li {
         display: none;
     }
