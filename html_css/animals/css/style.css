@@ -1903,11 +1903,12 @@ input[type='radio']:checked + label {
 /**----окно забрать домой----*/
 
 .modal-windows__home {
-    display: block;
+    /* display: none; */
 }
 
 .home__wrapper {
-    height: 795px;
+    /* height: 795px; */
+    max-height: 100%;
     width: 605px;
 }
 
@@ -1943,6 +1944,26 @@ input[type='radio']:checked + label {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
+}
+
+.modal-windows__title-text--home {
+    max-width: 402px;
+}
+
+.modal-windows-textarea--home {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.modal-windows__home-contacts {
+    margin-bottom: 32px;
+}
+
+.modal-windows__home-contacts p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 2px;
 }
 
 
