@@ -70,4 +70,9 @@ showModal('.home__send-btn', '.modal-windows__home');
 
 closeModal('.home-close-window', '.modal-windows__home');
 
+showModal('.overexposure__send-btn', '.modal-windows__overexposure');
+
+closeModal('.overexposure-close-window', '.modal-windows__overexposure');
+
+
 // closeModal('.volunteering-close-window', '.modal-windows__home');
