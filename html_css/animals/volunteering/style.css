@@ -494,3 +494,87 @@ input[type='radio']:checked + label {
     box-sizing: border-box;
     box-shadow: -6px -6px 16px rgba(224, 224, 224, 0.6), 6px 6px 16px rgba(255, 255, 255, 0.77);
 }
+
+/*
+<section class="demo">
+    <div class="container">
+      <div class="custom-image-wrapper">
+        <div class="custom-image-wrapper__main-image circle-image"></div>
+        <div class="custom-image-wrapper__secondary-image circle-image circle-image--small"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+/* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+.demo {
+  background-color: #fff;
+  padding: 55px 0;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.custom-image-wrapper {
+ width: 50%;
+ position: relative;
+}
+
+.custom-image-wrapper::before {
+  content: '';
+  width: 50vw;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  background-color: #FFC41E;
+}
+
+.custom-image-wrapper__main-image {
+  position: relative;
+}
+
+.custom-image-wrapper__main-image::after {
+  background-color: #707070;
+}
+
+.custom-image-wrapper__secondary-image {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: -5%;
+  right: -5%;
+  width: 45%;
+}
+
+.custom-image-wrapper__secondary-image::after {
+  background-color: #363636;
+}
+
+.circle-image {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 26px solid #FFC41E;
+}
+
+.circle-image--small {
+  border: 8px solid #EEBF3A;
+}
+
+.circle-image::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+  height: 0;
+}
+*/
