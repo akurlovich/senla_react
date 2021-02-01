@@ -1983,6 +1983,53 @@ input[type='radio']:checked + label {
 
 }
 
+/**----окно кому и куда передать---*/
+
+.modal-windows__transfer {
+    /* display: block; */
+}
+
+.transfer__wrapper {
+    width: 525px;
+    max-height: 100%;
+}
+
+.modal-windows__title-text--transfer {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.modal-windows__title-text--transfer p {
+    padding-bottom: 10px;
+}
+
+.modal-windows__transfer-contacts p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.necessary-things__conteiner a { /*! перенести в основной блок и убрать а как ссылку*/
+    cursor: pointer;
+}
+
+
+/**------ окно автопомощи-----*/
+
+.modal-window__autohelp {
+    display: block;
+}
+
+.autohelp-wrapper {
+    width: 605px;
+    max-height: 100%;
+}
+
+
 
 
 

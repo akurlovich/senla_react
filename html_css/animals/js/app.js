@@ -63,16 +63,19 @@ function closeModal (classClick, classWindow) {
 }
 
 showModal('.volunteering-open', '.modal-windows__volunteering');
-
 closeModal('.volunteering-close-window', '.modal-windows__volunteering');
 
 showModal('.home__send-btn', '.modal-windows__home');
-
 closeModal('.home-close-window', '.modal-windows__home');
 
 showModal('.overexposure__send-btn', '.modal-windows__overexposure');
-
 closeModal('.overexposure-close-window', '.modal-windows__overexposure');
 
+showModal('.transfer-btn-open', '.modal-windows__transfer');
+closeModal('.transfer-close-window', '.modal-windows__transfer');
 
+
+// transfer-btn-open
+// modal-windows__transfer
+// transfer-close-window
 // closeModal('.volunteering-close-window', '.modal-windows__home');

@@ -330,7 +330,7 @@
                         • Посуда для животных и для приготовления еды - миски, кастрюли, ножи, черпаки и др.);<br>
                         • Теплые вещи, лежаки для утепления и уюта животных;<br>
                         • Будки.</p>
-                    <a href="#">Кому и куда передать?</a>
+                    <a class="transfer-btn-open">Кому и куда передать?</a>
                 </div>
                                 
             </section>
@@ -621,6 +621,68 @@
                             <span>Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой. Спасибо за помощь!</span>
                         </div>
 
+                        <div class="modal-windows__buttons">
+                            <div class="send-btn send-btn--volunteering">
+                                <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            </div>
+                            <div class="cansel-btn cansel-btn--volunteering">
+                                <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal-windows__volunteering modal-windows__transfer">
+        <div class="transfer__wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Кому и куда передать?</h3>
+                    <button class="transfer-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <!-- <p class="modal-windows__title">Заявка</p> -->
+                <section>
+                    <div class="modal-windows__title-text modal-windows__title-text--transfer">
+                        <p>Чтобы передать купленные вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о времени и месте встречи.</p> 
+                        <p>Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
+                    </div>
+                    <div class="modal-windows__transfer-contacts">
+                        <p><strong>+375 (33) 6237879</strong>  Лена</p>
+                        <p><strong>+375 (29) 7877791</strong>  Ольга</p>
+                        <p><strong>+375 (29) 5837015</strong>  Рита</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal-windows__volunteering modal-window__autohelp">
+        <div class="autohelp-wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Волонтерство</h3>
+                    <button class="volunteering-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <p class="modal-windows__title">Заявка</p>
+                <section>
+                    <div class="modal-windows__title-text">
+                        <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                        <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
+                        <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
+                        <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="modal-windows__input-radio-label">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
+                        </div>
+                        
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="modal-windows__input-radio-label">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
+                        </div>
+                        <textarea class="modal-windows-textarea" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
                         <div class="modal-windows__buttons">
                             <div class="send-btn send-btn--volunteering">
                                 <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
