@@ -2031,6 +2031,7 @@ input[type='radio']:checked + label {
     max-width: 605px;
     max-height: 100%;
     margin-top: 10px;
+    overflow: scroll;
 }
 
 .modal-windows__title-text--autohelp {
@@ -2194,6 +2195,8 @@ input[type="checkbox" i] {
 .about-pet__wrapper {
     max-width: 850px;
     margin-top: 20px;
+    max-height: 100%;
+    overflow: scroll;
 }
 
 .about-pet__header {
