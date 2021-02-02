@@ -2328,7 +2328,8 @@ input[type="checkbox" i] {
     display: flex;
     flex-wrap: wrap;
     margin-top: 41px;
-    justify-content: space-between;
+    /* justify-content: left; */
+    gap: 1%;
 }
 
 .ward_animals__card:nth-child(3) {
@@ -2340,7 +2341,8 @@ input[type="checkbox" i] {
 }
 
 .all-ward-animals__card {
-    margin: 0;
+    margin-right: 0;
+    margin-bottom: 42px;
 }
 
 
