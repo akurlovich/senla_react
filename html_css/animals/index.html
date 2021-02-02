@@ -11,38 +11,79 @@
     <div class="wrapper">
         <header>
             <div class="header">
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">Как помочь</a></li>
-                        <li><a href="#">Подопечные животные</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">О нас</a> </li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                    <ul class='menu-nav_social'>
-                        <li>
-                            <!-- <a href="https://vk.com/animalsgrodno" target="_blank"><img href="#" src="/html_css/animals/img/VK-nav.svg" alt="VK"></a> -->
-                            <div class="nav-btn__social btn-social--yellow">
-                                <a href="https://vk.com/animalsgrodno" target="_blank">
-                                    <div class="btn-social-bg btn-social-bg--yellow">
-                                        <img src="/html_css/animals/img/vk-svg.svg" alt="">
-                                    </div>
-                                </a>
+                <div>
+                    <nav class="menu">
+                        <div class="burger-icon">
+                            <!-- <svg class="burger-icon-click" width="30" height="20" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 0V2H0V0H18ZM0 12H18V10H0V12ZM0 7H18V5H0V7Z" fill="#242424"/>
+                            </svg> -->
+                            <div class="burger-icon-click">
+                                <span class="burger__line burger__line-first"></span>
+                                <span class="burger__line burger__line-second"></span>
+                                <span class="burger__line burger__line-third"></span>
+                                <span class="burger__line burger__line-fourth"></span>
+
                             </div>
-                        </li>
-                        <li>
-                            <!-- <a href="https://www.instagram.com/animalsgrodno/" target="_blank"><img href="#" src="/html_css/animals/img/inst-nav.svg" alt="Instagram"></a> -->
-                            <div class="nav-btn__social btn-social--yellow">
-                                <a href="https://vk.com/animalsgrodno" target="_blank">
-                                    <div class="btn-social-bg btn-social-bg--yellow">
-                                        <img src="/html_css/animals/img/instagram-svg.svg" alt="">
-                                    </div>
-                                </a>
+                            <div class="mobile-social-header-links">
+                                <div class="nav-btn__social btn-social--yellow">
+                                    <a href="https://vk.com/animalsgrodno" target="_blank">
+                                        <div class="btn-social-bg btn-social-bg--yellow">
+                                            <img src="/html_css/animals/img/vk-svg.svg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="nav-btn__social btn-social--yellow">
+                                    <a href="https://vk.com/animalsgrodno" target="_blank">
+                                        <div class="btn-social-bg btn-social-bg--yellow">
+                                            <img src="/html_css/animals/img/instagram-svg.svg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
-                </nav>
+
+                        </div>
+                        <!-- <div class="bg-in-nav-menu-ul"> -->
+                            <ul class="mobile-menu-view">
+                                <li class="nav-link-first mobile-menu-view"><a href="#">Как помочь</a></li>
+                                <li class="mobile-menu-view"><a href="#">Подопечные животные</a></li>
+                            </ul>
+                            <ul class="mobile-menu-view">
+                                <li class="mobile-menu-view"><a href="#">О нас</a> </li>
+                                <li class="nav-link-last mobile-menu-view"><a href="#">Контакты</a></li>
+                            </ul>
+                        <!-- </div> -->
+                            <div class="nav-mobile-bg mobile-menu-view">
+                                <!-- <div class="nav-mobile-close-btn">
+                                    <span>Закрыть</span>
+                                    <svg class="burger-icon-click-close" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M15 13.5858L21.3639 7.22183L22.7782 8.63604L16.4142 15L22.7782 21.364L21.3639 22.7782L15 16.4142L8.63602 22.7782L7.22181 21.364L13.5858 15L7.22181 8.63604L8.63602 7.22183L15 13.5858Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </div> -->
+                            </div>
+                        <ul class='menu-nav_social'>
+                            <li>
+                                <!-- <a href="https://vk.com/animalsgrodno" target="_blank"><img href="#" src="/html_css/animals/img/VK-nav.svg" alt="VK"></a> -->
+                                <div class="nav-btn__social btn-social--yellow">
+                                    <a href="https://vk.com/animalsgrodno" target="_blank">
+                                        <div class="btn-social-bg btn-social-bg--yellow">
+                                            <img src="/html_css/animals/img/vk-svg.svg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- <a href="https://www.instagram.com/animalsgrodno/" target="_blank"><img href="#" src="/html_css/animals/img/inst-nav.svg" alt="Instagram"></a> -->
+                                <div class="nav-btn__social btn-social--yellow">
+                                    <a href="https://vk.com/animalsgrodno" target="_blank">
+                                        <div class="btn-social-bg btn-social-bg--yellow">
+                                            <img src="/html_css/animals/img/instagram-svg.svg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
                 <section class="header_title">
                     <h1 class="title_header">СПАСИ ЖИЗНЬ</h1>
                     <p class="title_text_one">Благотворительное общественное объединение защиты животных</p>
@@ -74,7 +115,7 @@
 
                 </div>
                 <div class="kind_hearts_title">
-                    <h3 class="kind_title_header">Тут большие добрые сердца<br>помогают жить маленьким<br>сердечкам</h3>
+                    <h3 class="kind_title_header">Тут большие добрые сердца помогают жить маленьким сердечкам</h3>
                     <p class="kind_title text_one">Ежедневно в пункт временного содержания, путём отлова, попадают безнадзорные собаки и коты. По закону, у животных находящихся в САХе есть всего лишь несколько дней, чтобы найти прежнего или обрести нового хозяина. В противном случае невостребованных животных ждёт УСЫПЛЕНИЕ! Здесь вы сможете найти своего как потерявшегося, так и нового верного друга! 
                     </p>
                     <p class="kind_title text_one">Если нет возможности забрать хвостика, вы можете помочь нам финансово или другой материальной помощью. Еще нам всегда нужны добрые и отзывчивые люди - волонтеры, без вас очень трудно!</p>
@@ -191,11 +232,11 @@
                             <div class="animals-nav_links">
                                 <!-- <a href="#">Забрать домой</a> -->
                                 <div class="send-btn send-btn--go-home">
-                                    <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Забрать домой</button>
+                                    <button class="modal-windows__send-btn volunteering__send-btn home__send-btn" type="submit">Забрать домой</button>
                                 </div>
                                 <!-- <a href="#">Забрать на передержку</a> -->
                                 <div class="cansel-btn send-btn--overexposure">
-                                    <button class="modal-windows__cancel-btn" type="reset">Забрать на передержку</button>
+                                    <button class="modal-windows__cancel-btn overexposure__send-btn" type="reset">Забрать на передержку</button>
                                 </div>
                             </div>
                             <div class="animals-nav__right-bt">
@@ -289,7 +330,7 @@
                         • Посуда для животных и для приготовления еды - миски, кастрюли, ножи, черпаки и др.);<br>
                         • Теплые вещи, лежаки для утепления и уюта животных;<br>
                         • Будки.</p>
-                    <a href="#">Кому и куда передать?</a>
+                    <a class="transfer-btn-open">Кому и куда передать?</a>
                 </div>
                                 
             </section>
@@ -324,7 +365,7 @@
                         Часто животным не хватает обычных прогулок и игры, они сидят в клетках и грустят.</p>
                         <!-- <button>Оставить заявку</button>  -->
                         <div class="send-btn send-btn--volunteering-title">
-                            <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            <button class="modal-windows__send-btn volunteering__send-btn volunteering-open" type="submit">Отправить заявку</button>
                         </div>
                     </div> 
                 </div> 
@@ -435,10 +476,237 @@
             <p>© 2020 БООЗЖ "СПАСИ ЖИЗНЬ"</p>
         </footer>
     </div>
-    <div class="modal-windows">
-        <div class="volunteering">
-            
+    <div class="modal-windows__volunteering">
+        <div class="volunteering-wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Волонтерство</h3>
+                    <button class="volunteering-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <p class="modal-windows__title">Заявка</p>
+                <section>
+                    <div class="modal-windows__title-text">
+                        <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                        <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
+                        <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
+                        <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="modal-windows__input-radio-label">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
+                        </div>
+                        
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="modal-windows__input-radio-label">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
+                        </div>
+                        <textarea class="modal-windows-textarea" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                        <div class="modal-windows__buttons">
+                            <div class="send-btn send-btn--volunteering">
+                                <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            </div>
+                            <div class="cansel-btn cansel-btn--volunteering">
+                                <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
         </div>
     </div>
+    <div class="modal-windows__volunteering modal-windows__home">
+        <div class="home__wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Забрать домой</h3>
+                    <button class="home-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <!-- <p class="modal-windows__title">Заявка</p> -->
+                <div class="animal modal-windows__home-header">
+                    <ul>
+                        <li>
+                            <div class="div home-header__foto">
+                                <img src="/html_css/animals/img/dog_monik.png" alt="Щенок на руках">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Моник</h4>
+                            <p>Мальчик, 7 месяцев</p>
+                        </li>
+                    </ul>
+                </div>
+                <section>
+                    <div class="modal-windows__title-text modal-windows__title-text--home">
+                        <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                        <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
+                        <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
+                        <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                        <!-- <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="modal-windows__input-radio-label">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
+                        </div>
+                        
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="modal-windows__input-radio-label">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
+                        </div> -->
+                        <textarea class="modal-windows-textarea modal-windows-textarea--home" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                        <div class="modal-windows__home-contacts">
+                            <p>Если у вас есть вопросы, можете позвонить нам:</p>
+                            <p>+375 (33) 6237879  Лена</p>
+                            <p>+375 (29) 7877791  Ольга</p>
+                            <p>+375 (29) 5837015  Рита</p>
+                        </div>
+
+                        <div class="modal-windows__buttons">
+                            <div class="send-btn send-btn--volunteering">
+                                <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            </div>
+                            <div class="cansel-btn cansel-btn--volunteering">
+                                <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal-windows__volunteering modal-windows__overexposure">
+        <div class="home__wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Забрать на передержку</h3>
+                    <button class="overexposure-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <!-- <p class="modal-windows__title">Заявка</p> -->
+                <div class="animal modal-windows__home-header">
+                    <ul>
+                        <li>
+                            <div class="div home-header__foto">
+                                <img src="/html_css/animals/img/dog_monik.png" alt="Щенок на руках">
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Моник</h4>
+                            <p>Мальчик, 7 месяцев</p>
+                        </li>
+                    </ul>
+                </div>
+                <section>
+                    <div class="modal-windows__title-text modal-windows__title-text--home">
+                        <p>Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца на передержку.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                        <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
+                        <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
+                        <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                        <!-- <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="want_help" checked><label for="want_help"><span class="modal-windows__input-radio-label">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</span></label>
+                        </div>
+                        
+                        <div class="modal-windows__input-radio">
+                            <input class="radio_input" type="radio" name="help" id="ready_help"><label for="ready_help"><span class="modal-windows__input-radio-label">Готов помогать иногда. Хочу выбрать удобное для меня время</span></label>
+                        </div> -->
+                        <textarea class="modal-windows-textarea modal-windows-textarea--home" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                        <div class="modal-windows__home-contacts">
+                            <p>Если у вас есть вопросы, можете позвонить нам:</p>
+                            <p>+375 (33) 6237879  Лена</p>
+                            <p>+375 (29) 7877791  Ольга</p>
+                            <p>+375 (29) 5837015  Рита</p>
+                            <span>Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой. Спасибо за помощь!</span>
+                        </div>
+
+                        <div class="modal-windows__buttons">
+                            <div class="send-btn send-btn--volunteering">
+                                <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            </div>
+                            <div class="cansel-btn cansel-btn--volunteering">
+                                <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal-windows__volunteering modal-windows__transfer">
+        <div class="transfer__wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Кому и куда передать?</h3>
+                    <button class="transfer-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <!-- <p class="modal-windows__title">Заявка</p> -->
+                <section>
+                    <div class="modal-windows__title-text modal-windows__title-text--transfer">
+                        <p>Чтобы передать купленные вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о времени и месте встречи.</p> 
+                        <p>Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
+                    </div>
+                    <div class="modal-windows__transfer-contacts">
+                        <p><strong>+375 (33) 6237879</strong>  Лена</p>
+                        <p><strong>+375 (29) 7877791</strong>  Ольга</p>
+                        <p><strong>+375 (29) 5837015</strong>  Рита</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal-windows__volunteering modal-window__autohelp">
+        <div class="autohelp-wrapper modal-windows-wrapper">
+            <div class="body">
+                <div class="volunteering-header modal-windows-header">
+                    <h3>Автопомощь</h3>
+                    <button class="volunteering-close-window"><img src="/html_css/animals/img/icon_close.svg" alt="close"></button>
+                </div>
+                <div class="modal-windows__under-header-line"></div>
+                <p class="modal-windows__title">Заявка</p>
+                <section>
+                    <div class="modal-windows__title-text modal-windows__title-text--autohelp">
+                        <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <input class="modal-windows__input-name" type="text" name="" id="name" placeholder="Фамилия и имя">
+                        <input class="modal-windows__input-tel" type="tel" name="" id="phone" placeholder="Номер телефона">
+                        <p class="modal-windows__wrong-number">Вы не ввели номер телефона. Это поле обязательное</p>
+                        <p class="modal-windows__required-field-text">Обязательное поле для заполнения</p>
+                        
+                        <p class="header_time">Выберите удобное время, когда вы сможете нам помочь</p>
+
+                        <input class="first_input" type="text" name="" id="date" placeholder="Дата/период" onfocus="(this.type='date')" onblur="(this.type='text')">
+                        <input class="first_input" type="text" name="" id="time" placeholder="Время" onfocus="(this.type='time')" onblur="(this.type='text')">
+                        <div class="plus_area">
+                            <!-- <a href="#" class="plus">+</a> -->
+                            <img class="plus-area__img" src="/html_css/animals/img/add-date-icon.svg" alt="">
+                            <p class="header_add_data">Добавить дату и время</p>
+                        </div>
+                        <div class="same_class"><input type="checkbox" name="work_day" id="work_day"><label for="work_day">В любой будний день</label></div>
+                        <div class="same_class"><input type="checkbox" name="weekend" id="weekend"><label for="weekend">В любой выходной день</label></div>
+                        <p class="help_text">Выберите вид автопомощи</p>
+                        <div class="same_class"><input type="checkbox" name="delivery" id="delivery"><label for="delivery">Доставка еды, медикаментов и других небольших вещей</label></div> 
+                        <div class="same_class"><input type="checkbox" name="delivery_items" id="delivery_items"><label for="delivery_items">Доставка сена или соломы, строительных материлов <br> для будок и других крупногабаритных вещей</label></div>
+                        <div class="same_class"><input type="checkbox" name="small_animals" id="small_animals"><label for="small_animals">Транспортировка небольших собак и котов</label></div>
+                        <div class="same_class"><input type="checkbox" name="big_animals" id="big_animals"><label for="big_animals">Транспортировка больших собак</label></div>
+
+                        <textarea class="modal-windows-textarea" name="" id="" cols="30" rows="10" placeholder="Замечания"></textarea>
+                        <div class="modal-windows__buttons">
+                            <div class="send-btn send-btn--volunteering">
+                                <button class="modal-windows__send-btn volunteering__send-btn" type="submit">Отправить заявку</button>
+                            </div>
+                            <div class="cansel-btn cansel-btn--volunteering">
+                                <button class="modal-windows__cancel-btn" type="reset">Отмена</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="/html_css/animals/js/app.js"></script>
 </body>
 </html>
