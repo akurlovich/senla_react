@@ -2268,6 +2268,85 @@ input[type="checkbox" i] {
     margin-right: 0;
 } */
 
+/**------окно Показать всех------*/
+
+.modal-windows__all-ward-animals {
+    display: block;
+}
+
+.all-ward-animals__wrapper {
+    max-width: 1366px;
+    margin-top: 20px;
+    max-height: 100%;
+    overflow: scroll;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.all-ward-animals__header ul {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.all-ward-animals__header li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.all-ward-animals__header li img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.all-ward-animals__header li h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #242424;
+}
+
+.all-ward-animals__header-arrow-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #6B6B6B;
+}
+
+.all-ward-animals__header-selection-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6B6B6B;
+}
+
+.all-ward-animals__main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 41px;
+    justify-content: space-between;
+}
+
+.ward_animals__card:nth-child(3) {
+    opacity: 1;
+}
+
+.ward_animals__card:nth-child(1) {
+    opacity: 1;
+}
+
+.all-ward-animals__card {
+    margin: 0;
+}
+
+
+
+
+
 
 
 
