@@ -77,7 +77,15 @@ closeModal('.transfer-close-window', '.modal-windows__transfer');
 showModal('.autohelp__send-btn', '.modal-window__autohelp');
 closeModal('.autohelp-close-window', '.modal-window__autohelp');
 
+showModal('.about-pet__open-btn', '.modal-windows__about-pet');
+closeModal('.about-pet-close-window', '.modal-windows__about-pet');
 
+
+
+
+// about-pet__open-btn
+// modal-windows__about-pet
+// about-pet-close-window
 // autohelp__send-btn
 // modal-window__autohelp
 // transfer-btn-open

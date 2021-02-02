@@ -2253,6 +2253,10 @@ input[type="checkbox" i] {
     margin-left: 10px;
 }
 
+.about-pet__open-btn {
+    cursor: pointer;
+}
+
 /* .about-pet__foto img {
     margin-bottom: 31px;
     margin-right: 31px;
