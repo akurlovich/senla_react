@@ -74,7 +74,12 @@ closeModal('.overexposure-close-window', '.modal-windows__overexposure');
 showModal('.transfer-btn-open', '.modal-windows__transfer');
 closeModal('.transfer-close-window', '.modal-windows__transfer');
 
+showModal('.autohelp__send-btn', '.modal-window__autohelp');
+closeModal('.autohelp-close-window', '.modal-window__autohelp');
 
+
+// autohelp__send-btn
+// modal-window__autohelp
 // transfer-btn-open
 // modal-windows__transfer
 // transfer-close-window
