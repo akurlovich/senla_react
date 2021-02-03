@@ -1416,6 +1416,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         font-size: 14px;
         line-height: 140%;
     }
+    .how_help_header {
+        font-size: 24px;
+        margin-top: 64px;
+    }
+    .how_help_items {
+        margin-bottom: 54px;
+    }
+
     .how_help_items div {
         margin: 0 10px 0 10px;
         font-size: 14px;
