@@ -2271,7 +2271,11 @@ input[type="checkbox" i] {
 /**------окно Показать всех------*/
 
 .modal-windows__all-ward-animals {
-    display: block;
+    /* display: block; */
+}
+
+.all-ward-animals__open-btn {
+    cursor: pointer;
 }
 
 .all-ward-animals__wrapper {
