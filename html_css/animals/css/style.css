@@ -1498,6 +1498,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .finance-help ul li:first-child {
         padding-right: 25px;
     }
+    .necessary-things__conteiner {
+        max-width: 680px;
+        margin: 30px 185px 60px 185px;
+    }
+    .necessary-things__conteiner h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .necessary-things__conteiner p {
+        font-size: 14px;
+    }
     .volunteering__conteiner h3 {
         margin-top: 50px;
         font-size: 24px;
