@@ -1423,7 +1423,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .how_help_items {
         margin-bottom: 54px;
     }
-
+    
     .how_help_items div {
         margin: 0 10px 0 10px;
         font-size: 14px;
@@ -1433,27 +1433,70 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         width: 100px;
         height: 100px;
     }
+    .image_from_section img {
+        width: 84px;
+        height: 84px;
+    }
     .what_can_do ul {
-        margin: 61px 0 48px 0;
+        margin: 40px 0 48px 0;
         justify-content: center;
         align-items: center;
         text-align: left;
-
     }
     .what_can_do li {
         display: block;
         max-width: 275px;
-        
     }
     .what_can_do li:first-child {
-        margin-right: 69px;
+        margin-right: 47px;
     }
     .what_can_do h3 {
+        font-size: 20px;
+    }
+    .what_can_do p {
+        font-size: 14px;
+    }
+    .ward_animals h3 {
         font-size: 24px;
     }
-    .image_from_section img {
-        width: 100px;
-        height: 100px;
+    .warm_animals__nav {
+        display: none;
+    }
+    .ward_animals__socials ul {
+        margin-top: 48px;
+        margin-left: 110px;
+        margin-right: 157px;
+        width: auto;
+    }
+    .ward_animals__socials li:nth-child(1) {
+        font-size: 14px;
+        line-height: 140%;
+        Width: auto;
+        Height: 100%; 
+    }
+    .finance-help>h3 {
+        font-size: 20px;
+        padding: 30px 0 16px 0;
+    }
+    .finance-help>p {
+        font-size: 16px;
+        margin-left: 205px;
+        margin-right: 205px;
+    }
+    .finance-help ul>li>h3 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .finance-help ul>li>p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .finance-help ul {
+        margin: 24px 110px 16px 157px;
+        justify-content: space-between;
+    }
+    .finance-help ul li:first-child {
+        padding-right: 25px;
     }
     .volunteering__conteiner h3 {
         margin-top: 50px;
