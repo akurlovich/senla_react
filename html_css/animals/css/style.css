@@ -1509,6 +1509,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .necessary-things__conteiner p {
         font-size: 14px;
     }
+    .auto-help__conteiner {
+        max-width: 680px;
+        margin: 26px 185px 60px 185px;
+    }
+    .auto-help__conteiner h3 {
+        font-size: 20px;
+    }
+    .auto-help__conteiner p {
+        font-size: 14px;
+    }
     .volunteering__conteiner h3 {
         margin-top: 50px;
         font-size: 24px;
