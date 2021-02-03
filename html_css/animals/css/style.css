@@ -1533,6 +1533,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .send-btn--volunteering-title {
         margin-bottom: 40px;
     }
+    .news h3 {
+        font-size: 24px;
+    }
+    .news_row {
+        margin: 24px 157px 24px 205px;
+    }
+    .news__block p {
+        font-size: 14px;
+    }
     .thanks-for-help__img-rectangle {
         /* position: absolute;
         top: 50%;
