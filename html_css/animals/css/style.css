@@ -1542,6 +1542,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .news__block p {
         font-size: 14px;
     }
+    .about_us {
+        margin: 48px 137px 48px 185px;
+    }
+    .about_us h3 {
+        font-size: 20px;
+    }
+    .about_us__text-about {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about_us__text-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .about_us__text-contacts {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
     .thanks-for-help__img-rectangle {
         /* position: absolute;
         top: 50%;
