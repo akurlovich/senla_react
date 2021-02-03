@@ -1328,7 +1328,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         padding-bottom: 12px;
     }
     .header_title {
-        height: 511px;
+        height: 450px;
         margin-top: 33px;
     }
     .title_header {
@@ -1378,7 +1378,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         top: -100px;
     }
     .kind_hearts_img {
-        flex: 0 0 510px;
+        /* flex: 0 0 510px; */
+        max-width: 50%;
+        width: 100%;
     }
     .kind_hearts_img__rectangle {
         margin-top: 36px;
@@ -1399,12 +1401,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     }
     .kind_hearts_title {
         margin-top: 75px;
-        padding-right: 100px;
+        padding-right: 110px;
     }
     .kind_title_header {
-        padding-left: 45px;
-        padding-right: 45px;
-        font-size: 24px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .kind_hearts_title p {
+        font-size: 14px;
+        line-height: 140%;
     }
     .how_help_items div {
         margin: 0 10px 0 10px;
