@@ -1520,7 +1520,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         font-size: 14px;
     }
     .volunteering_img {
-        margin-top: 10%;
+        margin-top: 75px;
     }
     .volunteering__conteiner h3 {
         margin-top: 42px;
@@ -1584,19 +1584,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
         top: 42px;
     }
     .footer-nav {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .footer-nav .footer-nav__links {
-        justify-content: space-between;
-        margin: 20px 110px 0 110px;
+        /* justify-content: space-between;
+        margin: 20px 110px 0 110px; */
+    }
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+        /* margin: 40px 0 24px 0; */
+        max-height: 112px;
+        flex-wrap: wrap;
     }
     .footer-nav__links li {
-        padding: 0;
+        padding-right: 56px;
+        padding-bottom: 20px;
         text-decoration: underline;
     }
     .footer-nav .footer-nav__links-about {
-        justify-content: left;
-        margin: 24px 110px 0 110px;
+        /* justify-content: left;
+        margin: 24px 110px 0 110px; */
+        align-items: flex-end;
+        padding-left: 80px;
+    }
+    .footer-nav .footer-nav__links-about li {
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    .footer p {
+        margin-top: -20px;
     }
 }
 
