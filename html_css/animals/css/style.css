@@ -2281,6 +2281,7 @@ input[type="checkbox" i] {
     overflow: scroll;
     padding-left: 7%;
     padding-right: 7%;
+    background-color: #F6F6F6;
 }
 
 .all-ward-animals__header ul {
@@ -2322,6 +2323,24 @@ input[type="checkbox" i] {
     font-size: 16px;
     line-height: 140%;
     color: #6B6B6B;
+    margin-right: 8px;
+}
+
+.all-ward-animals__select {
+    width: 168px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242424;
+    padding-left: 16px;
+}
+
+.all-ward-animals__select:hover {
+    border: 1px solid #FFC41E;
 }
 
 .all-ward-animals__main {
@@ -2329,7 +2348,7 @@ input[type="checkbox" i] {
     flex-wrap: wrap;
     margin-top: 41px;
     /* justify-content: left; */
-    gap: 1%;
+    gap: 5px;
 }
 
 .ward_animals__card:nth-child(3) {
