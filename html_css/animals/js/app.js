@@ -86,9 +86,9 @@ closeModal('.all-ward-animals__close-window', '.modal-windows__all-ward-animals'
 
 
 
-all-ward-animals__close-btn
-all-ward-animals__open-btn
-modal-windows__all-ward-animals
+// all-ward-animals__close-btn
+// all-ward-animals__open-btn
+// modal-windows__all-ward-animals
 // about-pet__open-btn
 // modal-windows__about-pet
 // about-pet-close-window
