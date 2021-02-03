@@ -1344,8 +1344,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .title_text_two {
         font-size: 14px;
     }
+    .title_text_one {
+        font-weight: 300;
+        line-height: 16px;
+        /* color: #6B6B6B; */
+        display: block;
+        max-width: 250px;
+    }
+    .title_text_two {
+        display: block;
+        max-width: 307px;
+    }
     .title_text_three {
-        font-size: 20px;
+        font-size: 16px;
     }
     .img_header_cat {
         top: 374px;
