@@ -276,6 +276,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     line-height: 140%;
     color: #474747;
     margin-top: 12px;
+    display: block;
+    max-width: 660px;
 }
 
 .title_text_three {
@@ -1197,6 +1199,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     .title_text_one,
     .title_text_two {
         font-size: 14px;
+    }
+    .title_text_two {
+        max-width: 460px;
     }
     .title_text_three {
         font-size: 20px;
@@ -2324,7 +2329,7 @@ input[type='radio']:checked + label {
 /**------ окно автопомощи-----*/
 
 .modal-window__autohelp {
-    display: block;
+    /* display: block; */
 }
 
 .autohelp-wrapper {
