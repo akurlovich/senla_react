@@ -317,6 +317,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 }
 
+.mobile-header-btn {
+    display: none;
+    
+}
+
+.mobile-title_text_three {
+    display: none;
+    
+}
+
 .img_header { /*! возможно норм*/
     position: absolute;
     width: 718px;
@@ -2798,26 +2808,23 @@ input[type='radio']:checked + label {
     }
     .title_text_three {
         display: none;
-        /* font-size: 16px;
-        margin-top: 160px;
-        margin-right: 130px;
-        margin-left: 20%;
-        line-height: 19px;
-        text-align: center; */
+       
     }
     .title_button {
         display: none;
         margin-top: 20px;
-        /* margin-left: 20%; */
+        margin-bottom: 47px;
+        
+    }
+    .modal-windows__send-btn {
+        font-size: 18px;
     }
     .mobile-header-text-and-btn {
-
     }
     .mobile-header-btn {
         display: flex;
         justify-content: center;
     }
-
     .mobile-title_text_three {
         display: block;
         width: 100%;
@@ -2828,7 +2835,6 @@ input[type='radio']:checked + label {
     .mobile-title_button {
         display: flex;
     }
-
     .img_header_cat {
         top: 251px;
         right: 95px;
@@ -2842,9 +2848,10 @@ input[type='radio']:checked + label {
         top: 310px;
     }
     .img_header_text img {
-        max-width: 420px;
+        max-width: 350px;
         position: absolute;
-        top: -100px;
+        top: -140px;
+        left: 15px;
     }
     .kind_hearts_img {
         /* flex: 0 0 510px; */
