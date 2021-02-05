@@ -3102,13 +3102,22 @@ input[type='radio']:checked + label {
         font-size: 24px;
     }
     .news_row {
-        margin: 24px 157px 24px 205px;
+        /* margin: 24px 157px 24px 205px; */
+        width: 382px;
+    }
+    .news__block img {
+        width: 79px;
+        height: 79px;
     }
     .news__block p {
         font-size: 14px;
     }
+    .news a {
+        text-align: center;
+    }
     .about_us {
-        margin: 48px 137px 48px 185px;
+        /* margin: 48px 137px 48px 185px; */
+        width: 382px;
     }
     .about_us h3 {
         font-size: 20px;
@@ -3124,6 +3133,9 @@ input[type='radio']:checked + label {
     .about_us__text-contacts {
         font-size: 14px;
         margin-bottom: 32px;
+    }
+    .about_us ul {
+        justify-content: center;
     }
     .thanks-for-help__img-rectangle {
         /* position: absolute;
