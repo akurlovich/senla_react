@@ -3074,19 +3074,29 @@ input[type='radio']:checked + label {
     .auto-help--btn {
         margin-left: 20%;
     }
+    .volunteering__conteiner {
+        display: block;
+    }
     .volunteering_img {
-        margin-top: 75px;
+        width: 100%;
+        height: 210px;
+    }
+    .volunteering_title {
+        width: 382px;
+        margin: 0 auto;
     }
     .volunteering__conteiner h3 {
-        margin-top: 42px;
+        margin-top: 0;
         font-size: 20px;
+        text-align: center;
     }
     .volunteering__conteiner p {
         font-size: 14px;
-        margin-right: 157px;
+        margin-right: 0;
     }
     .send-btn--volunteering-title {
         margin-bottom: 40px;
+        margin-left: 20%;
     }
     .news h3 {
         font-size: 24px;
