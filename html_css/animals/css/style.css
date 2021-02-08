@@ -2568,7 +2568,7 @@ input[type='radio']:checked + label {
     }
     .kind_hearts_img__rectangle {
         margin-top: 5%;
-        width: 204px;
+        width: 55%;
         height: 273px;
     }
     .kind_hearts_img__circle-big {
@@ -2584,7 +2584,7 @@ input[type='radio']:checked + label {
         margin-left: 115%; */
         border: 5px solid #FFC41E;
         top: 185px;
-        left: 240px;
+        left: 60%;
     }
     .kind_hearts_title {
         margin-top: 3%;
