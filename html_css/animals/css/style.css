@@ -3235,7 +3235,7 @@ input[type='radio']:checked + label {
     }
 }
 
-@media (min-width: 320px) and (max-width: 639px) {
+@media (min-width: 360px) and (max-width: 639px) {
     /* .wrapper {
         max-width: 1269px;
     } */
@@ -3394,7 +3394,7 @@ input[type='radio']:checked + label {
         padding-right: 0;
     }
     .kind_title_header {
-        max-width: 260px;
+        max-width: 300px;
         margin-left: auto;
         margin-right: auto;
         /* padding-left: 15px; */
@@ -3407,7 +3407,7 @@ input[type='radio']:checked + label {
         line-height: 140%;
         text-align: left;
         display: block;
-        width: 260px;
+        width: 300px;
         margin: 0 auto;
         padding-bottom: 16px;
         padding-right: 0;
@@ -3444,7 +3444,7 @@ input[type='radio']:checked + label {
         display: block;
         margin: 0 auto;
         margin-top: 24px;
-        max-width: 260px;
+        max-width: 300px;
         /* justify-content: center;
         align-items: center; */
         text-align: left;
@@ -3506,7 +3506,7 @@ input[type='radio']:checked + label {
         margin-right: 157px; */
         /* width: auto; */
         display: block;
-        Width: 382px;
+        Width: 300px;
         margin-top: 40px;
         padding-bottom: 26px;
     }
@@ -3514,15 +3514,16 @@ input[type='radio']:checked + label {
         font-size: 14px;
         line-height: 140%;
         display: block;
-        Width: 382px;
+        Width: auto;
         Height: 100%; 
         align-items: center;
         margin-right: 0;
+        margin-left: 0;
         padding-bottom: 8px;
     }
     .ward_animals__socials li:nth-child(2) {
         display: inline-flex;
-        margin-left: 36%;
+        margin-left: 32%;
         margin-right: 48px;
     }
     .ward_animals__socials li:nth-child(3) {
@@ -3539,7 +3540,7 @@ input[type='radio']:checked + label {
     .finance-help>p {
         font-size: 16px;
         display: block;
-        width: 382px;
+        width: 300px;
         text-align: center;
         align-items: center;
         padding-bottom: 40px;
@@ -3556,17 +3557,21 @@ input[type='radio']:checked + label {
         display: block;
         align-items: center;
         margin: 0 auto;
+        padding-right: 20px;
+        padding-left: 20px;
+
         /* justify-content: space-between; */
     }
     .finance-help ul li:first-child {
-        padding-right: 25px;
+        /* padding-right: 20px;
+        padding-left: 20px; */
     }
     .finance-help__bill--btn {
-        margin-left: 20%;
+        margin-left: 12%;
         margin-bottom: 32px;
     }
     .necessary-things__conteiner {
-        width: 382px;
+        width: 300px;
         margin: 0 auto;
     }
     .necessary-things__conteiner h3 {
@@ -3580,7 +3585,7 @@ input[type='radio']:checked + label {
         margin-left: 20%;
     }
     .auto-help__conteiner {
-        width: 382px;
+        width: 330px;
         margin: 0 auto;
         padding-bottom: 42px;
     }
@@ -3591,7 +3596,7 @@ input[type='radio']:checked + label {
         font-size: 14px;
     }
     .auto-help--btn {
-        margin-left: 20%;
+        margin-left: 14%;
     }
     .volunteering__conteiner {
         display: block;
@@ -3601,7 +3606,7 @@ input[type='radio']:checked + label {
         height: 210px;
     }
     .volunteering_title {
-        width: 382px;
+        width: 300px;
         margin: 0 auto;
     }
     .volunteering__conteiner h3 {
@@ -3615,7 +3620,7 @@ input[type='radio']:checked + label {
     }
     .send-btn--volunteering-title {
         margin-bottom: 40px;
-        margin-left: 20%;
+        margin-left: 14%;
     }
     .news h3 {
         font-size: 24px;
