@@ -3266,16 +3266,18 @@ input[type='radio']:checked + label {
     .header_title {
         height: 300px;
         margin-top: 33px;
+        margin-left: 30px;
     }
     .title_header {
         font-size: 30px;
         line-height: 36px;
     }
     .img_header {
-        width: 312px;
+        width: 225px;
         height: 357px;
         background-size: cover;
         right: 0;
+        background-position: center;
     }
     .title_text_one {
         font-size: 12px;
@@ -3286,7 +3288,7 @@ input[type='radio']:checked + label {
     .title_text_two {
         font-size: 14px;
         display: block;
-        max-width: 282px;
+        max-width: 158px;
         margin-top: 20px;
     }
     .title_text_three {
@@ -3320,7 +3322,7 @@ input[type='radio']:checked + label {
     }
     .img_header_cat {
         top: 251px;
-        right: 95px;
+        right: 30px;
     }
     .img_header_cat img{
         width: 165px;
@@ -3331,13 +3333,14 @@ input[type='radio']:checked + label {
         top: 310px;
     }
     .img_header_text img {
-        max-width: 350px;
+        max-width: 160px;
         position: absolute;
-        top: -140px;
-        left: 15px;
+        top: -10px;
+        left: 0;
     }
     .kind_hearts {
         display: block;
+        height: auto;
         /* text-align: center;
         padding-left: 129px;
         padding-right: 129px; */
@@ -3385,7 +3388,7 @@ input[type='radio']:checked + label {
         padding-right: 0;
     }
     .kind_title_header {
-        max-width: 382px;
+        max-width: 260px;
         margin-left: auto;
         margin-right: auto;
         /* padding-left: 15px; */
@@ -3398,9 +3401,10 @@ input[type='radio']:checked + label {
         line-height: 140%;
         text-align: left;
         display: block;
-        width: 382px;
+        width: 260px;
         margin: 0 auto;
         padding-bottom: 16px;
+        padding-right: 0;
     }
     .how_help_header {
         font-size: 18px;
@@ -3409,11 +3413,13 @@ input[type='radio']:checked + label {
     }
     .how_help_items {
         margin-bottom: 16px;
+        padding: 0;
     }
     .how_help_items div {
-        margin: 0 10px 24px 10px;
+        margin: 0 0 16px 0;
         font-size: 14px;
         width: 142px;
+        padding: 0;
         
     }
     .how_help_items .how-help__btn-img a {
