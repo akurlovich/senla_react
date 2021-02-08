@@ -2308,6 +2308,9 @@ input[type='radio']:checked + label {
     margin-right: 0;
     margin-bottom: 42px;
 }
+.modal-links-none {
+    display: none;
+}
 
 
 /**----breakpoits-----*/
@@ -2995,6 +2998,9 @@ input[type='radio']:checked + label {
     .ward_animals h3 {
         font-size: 20px;
     }
+    .all-ward-animals__none {
+        display: none;
+    }
     .warm_animals__nav {
         display: none;
     }
@@ -3468,6 +3474,28 @@ input[type='radio']:checked + label {
         flex: 0 1 300px;
         max-width: 300px;
         margin-right: 0;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .animals-nav_links {
+        display: flex;
+    }
+    .all-ward-animals__none {
+        display: none;
+    }
+    .ward_animals__card a {
+        display: none;
+    }
+    .send-btn--go-home {
+        width: 175px;
+        margin-top: 34px;
+    }
+    .send-btn--overexposure {
+        width: 242px;
+        margin-bottom: 18px;
+    }
+    .modal-windows__cancel-btn {
+        font-size: 18px;
     }
     .btn-social-bg--white img {
         width: 17px;
