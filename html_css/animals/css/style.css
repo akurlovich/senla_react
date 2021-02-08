@@ -560,6 +560,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     justify-content: center;
     /* width: 100%; */
     margin-top: 24px;
+    margin-bottom: 65px;
 }
 
 .ward-animals__see-all a {
@@ -657,7 +658,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .warm_animals__nav {
     display: flex;
     justify-content: space-between;
-    margin: 15px 256px 77px 256px;
+    margin: 15px 256px 30px 256px;
     text-align: center;
     align-items: center;
 }
