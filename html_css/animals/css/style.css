@@ -3627,7 +3627,10 @@ input[type='radio']:checked + label {
     }
     .news_row {
         /* margin: 24px 157px 24px 205px; */
-        width: 382px;
+        width: 300px;
+    }
+    .news__block__text {
+        max-width: 205px;
     }
     .news__block img {
         width: 79px;
@@ -3635,13 +3638,15 @@ input[type='radio']:checked + label {
     }
     .news__block p {
         font-size: 14px;
+        margin-left: 16px;
     }
     .news a {
         text-align: center;
     }
     .about_us {
         /* margin: 48px 137px 48px 185px; */
-        width: 382px;
+        width: 300px;
+        margin-bottom: 24px;
     }
     .about_us h3 {
         font-size: 20px;
@@ -3664,13 +3669,19 @@ input[type='radio']:checked + label {
     .thanks-for-help {
         margin-top: 0;
     }
+    .thanks-for-help_bg {
+        height: 267px;
+        object-fit: cover;
+        /* object-position: center; */
+        width: 100%;
+    }
     .thanks-for-help__img-rectangle {
         /* position: absolute;
         top: 50%;
         transform: translateY(-50%);*/
         margin-top: 0;
         top: 50%;
-        width: 24%;
+        width: 40%;
     }
     .thanks-for-help__img-circle {
         border: none;
