@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .wrapper {
-    max-width: 1366px;
+    max-width: 1920px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -366,17 +366,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .kind_hearts_img {
-    /* flex: 0 0 50%; */
+    flex: 0 0 50%;
     /* width: 450px; */
     /* flex-grow: 1; */
-    flex: 0 0 650px;
+    /* flex: 0 0 650px; */
     margin-top: 50px;
     position: relative;
     
 }
 
 .kind_hearts_img__rectangle {
-    width: 341px;
+    width: 55%;
     height: 521px;
     background: #FFC41E;
     /* margin-top: 54px; */
@@ -390,11 +390,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     width: 521px;
     height: 521px;
     margin-top: 0;
-    margin-left: 78px;
+    /* margin-left: 78px; */
     border: 34px solid #FFC41E;
     border-radius: 50%;
     /* border-color: #FFC41E; */
     /* background: #FFC41E; */
+    left: 55%;
+    transform: translateX(-50%);
 }
 
 .kind_hearts_img__circle-small {
@@ -902,6 +904,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .volunteering__conteiner {
     display: flex;
     flex-direction: row;
+    height: 650px;
 }
 
 .volunteering_img {
@@ -1095,7 +1098,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     color: #FFFFFF;
     position: absolute;
     /* left: 134px; */
-    left: 10%;
+    left: 8%;
     /* top: 303px; */
     top: 50%;
     transform: translateY(-50%);
@@ -1114,7 +1117,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .thanks-for-help_bg {
-    max-width: 100%;
+    width: 100%;
 }
 
 .thanks-for-help__img-rectangle {
@@ -1122,6 +1125,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     top: 50%;
     transform: translateY(-50%);
     margin-top: 0;
+    width: 30%;
 
 
     /* margin-top: -620px; */
@@ -1134,10 +1138,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .thanks-for-help__img-circle {
-    max-width: 521px;
+    /* max-width: 521px; */
+    left: 100%;
     max-height: 521px;
     margin-top: 0;
-    margin-left: 78px;
+    /* margin-left: 78px; */
     border: none;
     /* border: 34px solid #FFC41E; */
     border-radius: 50%;
@@ -2315,6 +2320,20 @@ input[type='radio']:checked + label {
 
 
 /**----breakpoits-----*/
+
+
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .wrapper {
+        max-width: 1920px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .wrapper {
+        max-width: 1440px;
+    }
+}
 
 @media (min-width: 1024px) and (max-width: 1269px) {
     /* .wrapper {
