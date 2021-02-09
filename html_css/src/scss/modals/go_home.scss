@@ -1,0 +1,65 @@
+
+
+.modal-windows__home {
+    /* display: none; */
+}
+
+.home__wrapper {
+    /* height: 795px; */
+    max-height: 100%;
+    max-width: 605px;
+}
+
+.modal-windows__home-header {
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+
+.modal-windows__home-header ul {
+    display: flex;
+    align-items: center;
+}
+
+.home-header__foto {
+    padding-right: 10px;
+}
+
+.home-header__foto img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+
+.modal-windows__home-header h4 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.modal-windows__home-header p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.modal-windows__title-text--home {
+    max-width: 402px;
+}
+
+.modal-windows-textarea--home {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.modal-windows__home-contacts {
+    margin-bottom: 32px;
+}
+
+.modal-windows__home-contacts p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 2px;
+}

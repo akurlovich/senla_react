@@ -6,7 +6,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family: Gilroy;font-style: normal;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -16,6 +16,11 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+html {
+    font-family: Gilroy, Arial;
+    font-style: normal;
+}
 
 .body {
     max-height: 100%;
@@ -2364,6 +2369,7 @@ input[type='radio']:checked + label {
         width: 504px;
         height: 564px;
         background-size: cover;
+        background-position: center;
     }
     .title_text_one,
     .title_text_two {
@@ -2520,6 +2526,7 @@ input[type='radio']:checked + label {
         width: 344px;
         height: 385px;
         background-size: cover;
+        background-position: center;
     }
     .title_text_one,
     .title_text_two {
@@ -2852,6 +2859,7 @@ input[type='radio']:checked + label {
         height: 357px;
         background-size: cover;
         right: 0;
+        background-position: center;
     }
     .title_text_one {
         font-size: 12px;
