@@ -49,6 +49,7 @@ module.exports = {
     //   ]
     // }),
   ],
+  devtool: isProd ? false : 'source-map',
   module: {
     rules: [
       {
