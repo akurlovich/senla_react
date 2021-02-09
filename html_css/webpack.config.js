@@ -1,3 +1,8 @@
+/* eslint-disable indent */
+/* eslint-disable object-curly-spacing */
+/* eslint-disable comma-dangle */
+/* eslint-disable eol-last */
+/* eslint-disable semi */
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
@@ -34,6 +39,10 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: [MiniCssExtractPlugin.loader, 'css-loader'],
+            },
+            {
+                test: /\.s[ac]ss$/i,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
             },
         ]
     }
