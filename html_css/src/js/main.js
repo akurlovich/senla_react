@@ -2,3 +2,4 @@
 /* eslint-disable semi */
 import '../css/main.css';
 import '../scss/main.scss';
+import '../index.html';
