@@ -91,6 +91,15 @@ module.exports = {
           }
         }],
       },
+      {
+        test: /\.(?:|woff|wolf2)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: `./fonts/${filename('[ext]')}`
+          }
+        }],
+      }
     ]
   }
 };
