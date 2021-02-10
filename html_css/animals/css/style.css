@@ -523,6 +523,17 @@ html {
     margin-bottom: 47px;
 }
 
+@keyframes move-how-help {
+    from {
+        transform: translateY(2000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .how_help_items { /*! отступы между значками не как в шаблоне */
     
     display: flex;
@@ -534,6 +545,12 @@ html {
     /* align-items: center; */
     margin-bottom: 86px;
     padding: 0 30px 0 30px;
+    animation: 2s move-how-help;
+    /* -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    animation-delay: 5s;
+    opacity: 1; */
     
 
 }
