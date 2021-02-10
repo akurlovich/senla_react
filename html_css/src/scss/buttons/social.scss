@@ -1,0 +1,70 @@
+
+.nav-btn__social a {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    width: 63px;
+    height: 63px;
+    /* background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
+    box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F; */
+    border-radius: 50%;
+}
+
+.btn-social--yellow a {
+    
+    background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
+    box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F;
+}
+
+.btn-social-bg--yellow {
+    background: linear-gradient(150.26deg, #FFE28F 6.75%, #ECBD37 91.17%);
+    box-shadow: 3px 3px 13px #C18F00;
+}
+
+.btn-social-bg--yellow:hover {
+    background: linear-gradient(150.26deg, #FFEAAD 6.75%, #FCE6A7 45.73%, #FFC726 91.17%);
+    /* box-shadow: 3px 3px 13px #C18F00; */
+}
+
+.btn-social-bg--yellow:active {
+    background: linear-gradient(150.26deg, #FFDA71 6.75%, #FFCD40 43.24%, #FBC11B 91.17%);
+    box-shadow: 2px 2px 6px #C18F00, inset 3px 3px 10px rgba(199, 129, 0, 0.59);
+}
+
+.btn-social-bg {
+    width: 49px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    
+    border-radius: 50%;
+}
+
+.btn-social--white a {
+    background: linear-gradient(144.1deg, #FFFFFF 12.45%, #FBFBFB 89.31%);
+    box-shadow: 7px 7px 16px rgba(213, 213, 213, 0.6), -6px -6px 8px #FFFFFF, inset 13px 22px 8px #F3F3F3;
+}
+
+.btn-social-bg--white {
+    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #E4E4E4 88.3%);
+    box-shadow: 3px 3px 13px #B1B1B1;
+}
+
+.btn-social-bg--white img {
+    width: 30px;
+    height: 100%;
+    
+}
+
+.btn-social-bg--white:hover {
+    background: linear-gradient(145.67deg, #FFFFFF 15.39%, #FAFAFA 54.13%, #DADADA 88.3%);
+    box-shadow: 3px 3px 13px #A3A3A3;
+}
+
+.btn-social-bg--white:active {
+    background: linear-gradient(145.67deg, #E4E4E4 16.92%, #F6F6F6 88.3%);
+    box-shadow: 3px 3px 13px #B2B2B2, inset 4px 4px 7px rgba(192, 192, 192, 0.25);
+}

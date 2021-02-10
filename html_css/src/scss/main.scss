@@ -1,7 +1,11 @@
 @import 'reset-styles';
 @import '../fonts/Gilroy.scss';
-@import 'body.html';
+@import 'body.scss';
 @import 'burger_menu.scss';
+
+@import './buttons/bts-how_help.scss';
+@import './buttons/send-cancel.scss';
+@import './buttons/social.scss';
 
 @import './modals/about_pet.scss';
 @import './modals/all_ward_animals.scss';

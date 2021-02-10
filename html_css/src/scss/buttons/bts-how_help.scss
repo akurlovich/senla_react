@@ -1,0 +1,28 @@
+.how-help__btn-img a {
+    display: flex;
+    justify-content: center; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #F6F6F6;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
+}
+
+.how-help__btn-img img {
+    width: 50%;
+}
+
+.how-help__btn-img a:hover {
+    border: none;
+    background: #FBFBFB;;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
+}
+
+.how-help__btn-img a:active {
+    background: linear-gradient(136.02deg, #FDFDFD 0%, #EAEAEA 72.75%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: -6px -6px 16px rgba(224, 224, 224, 0.6), 6px 6px 16px rgba(255, 255, 255, 0.77);
+}
