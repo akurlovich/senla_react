@@ -332,6 +332,17 @@ html {
     
 }
 
+@keyframes move-dog {
+    from {
+        right: -100%;
+        opacity: 0.4;
+    }
+    to {
+        right: 110px;
+        opacity: 1;
+    }
+  }
+
 .img_header { /*! возможно норм*/
     position: absolute;
     width: 718px;
@@ -343,13 +354,26 @@ html {
     border-radius: 0px 0px 8px 8px;
     opacity: 1;
     z-index: 1;
+    animation: 1.5s move-dog;
 }
+
+@keyframes move-cat {
+    from {
+        top: 2000px;
+        opacity: 0.4;
+    }
+    to {
+        top: 470px;
+        opacity: 1;
+    }
+  }
 
 .img_header_cat {
     position: absolute;
     z-index: 8;
     right: 276px;
     top: 470px;
+    animation: 1.5s move-cat;
 }
 
 .img_header_text {
