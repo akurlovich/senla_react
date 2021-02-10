@@ -2406,6 +2406,33 @@ input[type='radio']:checked + label {
     display: none;
 }
 
+/**----окно Успешая отправка----*/
+
+.modal-windows__success {
+    display: none;
+}
+
+.success__wrapper {
+    width: 408px;
+    height: 246px;
+}
+
+.modal-windows-header--close {
+    justify-content: flex-end;
+}
+
+.modal-windows__success-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    color: #242424;
+    margin-bottom: 28px;
+}
+
+.modal-windows__success-img {
+    text-align: center;
+}
 
 /**----breakpoits-----*/
 
