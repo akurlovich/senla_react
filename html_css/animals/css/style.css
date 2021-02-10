@@ -243,12 +243,28 @@ html {
 
 }
 
+@keyframes move-text-header {
+    from {
+        transform: translateX(-2000px);
+        opacity: 0.4;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .header_title {
     position: relative;
     margin-left: 110px;
     margin-top: 60px;
     height: 736px; /*!скорее всего не привильно*/
     z-index: 3;
+    animation: 3s move-text-header;
+    /* -webkit-transition-delay: 3s;
+    -moz-transition-delay: 3s;
+    -o-transition-delay: 3s;
+    transition-delay: 3s; */
     
 }
 
