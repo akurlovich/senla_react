@@ -546,6 +546,7 @@ html {
     margin-bottom: 86px;
     padding: 0 30px 0 30px;
     animation: 2s move-how-help;
+    animation-duration:5s;
     /* -webkit-animation-delay: 5s;
     -moz-animation-delay: 5s;
     -o-animation-delay: 5s;
@@ -1032,6 +1033,17 @@ html {
     /* align-items: center; */
 }
 
+@keyframes move-news {
+    from {
+        transform: translateX(-2000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .news__block { /*! вроде оптимальный вариант центрирования*/
     display: flex;
     /* flex-direction: row; */
@@ -1042,6 +1054,7 @@ html {
     padding-top: 40px;
     /* justify-content: center; */
     align-items: center; /*! центрирование по вертикали*/
+    animation: 2s move-news;
     
 }
 
