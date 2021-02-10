@@ -341,7 +341,7 @@ html {
         right: 110px;
         opacity: 1;
     }
-  }
+}
 
 .img_header { /*! возможно норм*/
     position: absolute;
@@ -366,7 +366,7 @@ html {
         top: 470px;
         opacity: 1;
     }
-  }
+}
 
 .img_header_cat {
     position: absolute;
@@ -376,12 +376,25 @@ html {
     animation: 1.5s move-cat;
 }
 
+@keyframes move-bg_text {
+    from {
+        top: 2000px;
+        opacity: 0.4;
+    }
+    to {
+        top: 374px;
+        opacity: 1;
+    }
+}
+
 .img_header_text {
     position: absolute;
     z-index: 1;
     left: 2px;
     top: 374px;
+    animation: 1.5s move-bg_text;
 }
+
 
 .kind_hearts {
     /* height: 650px; */
