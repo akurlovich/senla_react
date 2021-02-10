@@ -11,8 +11,20 @@
     display: none;
 }
 
+@keyframes modal-window {
+    from {
+        transform: translateХ(2000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .modal-window-active {
     display: block;
+    animation: 1s modal-window;
 }
 
 
