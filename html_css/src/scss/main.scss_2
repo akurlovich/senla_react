@@ -1,0 +1,29 @@
+// @import 'var';
+@import 'reset-styles';
+@import '../fonts/Gilroy.scss';
+// @import '/html_css/src/fonts/Gilroy/Gilroy';
+// @font-face {
+//     font-family: 'Gilroy';
+//     src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+//         url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff');
+//     font-weight: 800;
+//     font-style: normal;
+// }
+
+h1 {
+    color: green;
+    padding-left: 20px;
+    font-family: Gilroy;
+    ul {
+        background-color: green;
+    }
+}
+h3 {
+    color: blue;
+}
+p {
+    font-size: 50px;
+}
+body {
+    background: url(../images/alf-2.png);
+}
