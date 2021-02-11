@@ -78,11 +78,19 @@
 }
 
 .all-ward-animals__main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 41px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // margin-top: 41px;
     /* justify-content: left; */
-    gap: 5px;
+    // gap: 5px;
+    
+    display: grid;
+    grid-template: repeat(auto-fit, 555px) / repeat(auto-fit, 368px);
+    margin-top: 41px;
+    justify-content: center;
+    grid-gap: 20px 20px;
+    
+        
 }
 
 .ward_animals__card:nth-child(3) {
