@@ -9,7 +9,9 @@ import '../index.html';
 
 const menuShow = document.querySelectorAll('.mobile-menu-view'),
       // eslint-disable-next-line no-unused-vars
-      menuClick = document.querySelector('.burger-icon-click'),
+    //   menuClick = document.querySelector('.burger-icon-click'),
+      homeBtn = document.querySelectorAll('.home__send-btn'),
+      overexposureBtn = document.querySelectorAll('.overexposure__send-btn'),
       modalActive = 'modal-window-active'; // класс с display: block
 
 // *--открытие мобильного меню--//
@@ -69,10 +71,30 @@ function closeModal (classClick, classWindow) {
 showModal('.volunteering-open', '.modal-windows__volunteering');
 closeModal('.volunteering-close-window', '.modal-windows__volunteering');
 
-showModal('.home__send-btn', '.modal-windows__home');
+// const homeBtn = document.querySelectorAll('.home__send-btn'),
+//       overexposureBtn = document.querySelectorAll('.overexposure__send-btn');
+// console.log(homeBtn);
+
+homeBtn.forEach(btn => {
+    // showModal('.home__send-btn', '.modal-windows__home');
+    btn.addEventListener('click', () => {
+        document.querySelector('.modal-windows__home').classList.toggle(modalActive);
+        document.body.style.overflow = '';
+    });
+});
+
+// showModal('.home__send-btn', '.modal-windows__home');
 closeModal('.home-close-window', '.modal-windows__home');
 
-showModal('.overexposure__send-btn', '.modal-windows__overexposure');
+overexposureBtn.forEach(btn => {
+    // showModal('.home__send-btn', '.modal-windows__home');
+    btn.addEventListener('click', () => {
+        document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
+        document.body.style.overflow = '';
+    });
+});
+
+// showModal('.overexposure__send-btn', '.modal-windows__overexposure');
 closeModal('.overexposure-close-window', '.modal-windows__overexposure');
 
 showModal('.transfer-btn-open', '.modal-windows__transfer');
