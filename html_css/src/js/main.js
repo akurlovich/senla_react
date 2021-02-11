@@ -109,6 +109,9 @@ closeModal('.about-pet-close-window', '.modal-windows__about-pet');
 showModal('.all-ward-animals__open-btn', '.modal-windows__all-ward-animals');
 closeModal('.all-ward-animals__close-window', '.modal-windows__all-ward-animals');
 
+showModal('.all-news__open-btn', '.modal-windows__news');
+closeModal('.modal-windows__close-btn', '.modal-windows__news');
+
 
 
 
