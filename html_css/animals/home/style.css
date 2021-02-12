@@ -175,7 +175,8 @@ input {
     background-color: #FFFFFF;
 }
 
-.form-input:hover + .label-input {
+.form-input:hover + .label-input,
+.form-input:not(:placeholder-shown) + .label-input {
     transform: translateY(-20px);
 }
 
