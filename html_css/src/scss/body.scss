@@ -62,6 +62,21 @@ html {
     color: #242424; */
 }
 
+@keyframes move-nav-social {
+    from {
+        // transform: translateX(-2000px);
+        opacity: 0;
+    }
+    to {
+        // transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.menu-nav_social {
+    animation: 3s move-nav-social;
+}
+
 .menu li:last-child {
     padding-right: 0;
 }
