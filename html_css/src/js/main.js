@@ -79,7 +79,7 @@ homeBtn.forEach(btn => {
     // showModal('.home__send-btn', '.modal-windows__home');
     btn.addEventListener('click', () => {
         document.querySelector('.modal-windows__home').classList.toggle(modalActive);
-        document.body.style.overflow = '';
+        document.body.style.overflow = 'hidden';
     });
 });
 
@@ -90,7 +90,7 @@ overexposureBtn.forEach(btn => {
     // showModal('.home__send-btn', '.modal-windows__home');
     btn.addEventListener('click', () => {
         document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
-        document.body.style.overflow = '';
+        document.body.style.overflow = 'hidden';
     });
 });
 
