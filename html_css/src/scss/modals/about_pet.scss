@@ -44,9 +44,6 @@
 }
 
 .about-pet__foto {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 31px;

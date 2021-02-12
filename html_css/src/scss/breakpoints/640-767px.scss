@@ -1,7 +1,4 @@
 @media (min-width: 640px) and (max-width: 767px) {
-    /* .wrapper {
-        max-width: 1269px;
-    } */
     .burger-icon {
         padding-top: 24px;
         padding-bottom: 12px;
@@ -10,14 +7,6 @@
     .nav-btn__social a {
         width: 32px;
         height: 32px;
-    }
-    .mobile-social-header-links .btn-social--yellow {
-        /* width: 32px;
-        height: 32px; */
-    }
-    .mobile-social-header-links {
-        /* width: 32px;
-        height: 32px; */
     }
     .mobile-social-header-links .btn-social--yellow img {
         width: 17px;
@@ -71,8 +60,6 @@
     .modal-windows__send-btn {
         font-size: 18px;
     }
-    .mobile-header-text-and-btn {
-    }
     .mobile-header-btn {
         display: flex;
         justify-content: center;
@@ -107,13 +94,8 @@
     }
     .kind_hearts {
         display: block;
-        /* text-align: center;
-        padding-left: 129px;
-        padding-right: 129px; */
     }
     .kind_hearts_img {
-        /* flex: 0 0 510px; */
-        /* max-width: 50%; */
         width: 100%;
         height: 250px;
         position: relative;
@@ -157,8 +139,6 @@
         max-width: 382px;
         margin-left: auto;
         margin-right: auto;
-        /* padding-left: 15px; */
-        /* padding-right: 15px; */
         font-size: 16px;
         line-height: 120%;
     }
@@ -202,13 +182,9 @@
         margin: 0 auto;
         margin-top: 24px;
         width: 382px;
-        /* justify-content: center;
-        align-items: center; */
         text-align: left;
     }
     .what_can_do li {
-        /* display: block;
-        max-width: 275px; */
         padding-bottom: 32px;
     }
     .what_can_do li:first-child {
@@ -237,10 +213,6 @@
         width: 17px;
     }
     .ward_animals__socials ul {
-        /* margin-top: 48px;
-        margin-left: 110px;
-        margin-right: 157px; */
-        /* width: auto; */
         display: block;
         Width: 382px;
         margin-top: 40px;
@@ -292,7 +264,6 @@
         display: block;
         align-items: center;
         margin: 0 auto;
-        /* justify-content: space-between; */
     }
     .finance-help ul li:first-child {
         padding-right: 25px;
@@ -357,7 +328,6 @@
         font-size: 24px;
     }
     .news_row {
-        /* margin: 24px 157px 24px 205px; */
         width: 382px;
     }
     .news__block img {
@@ -371,7 +341,6 @@
         text-align: center;
     }
     .about_us {
-        /* margin: 48px 137px 48px 185px; */
         width: 382px;
     }
     .about_us h3 {
@@ -396,9 +365,6 @@
         margin-top: 0;
     }
     .thanks-for-help__img-rectangle {
-        /* position: absolute;
-        top: 50%;
-        transform: translateY(-50%);*/
         margin-top: 0;
         top: 50%;
         width: 24%;
@@ -409,8 +375,6 @@
         left: 100%;
     }
     .thanks-for-help_text {
-        /* top: 227px;
-        left: 100px; */
         font-size: 30px;
         line-height: 36px;
         width: 160px;
@@ -427,17 +391,9 @@
         width: 382px;
         margin: 0 auto;
     }
-    .footer-nav {
-        /* flex-direction: column; */
-    }
-    .footer-nav .footer-nav__links {
-        /* justify-content: space-between;
-        margin: 20px 110px 0 110px; */
-    }
     .footer-nav ul {
         display: flex;
         flex-direction: column;
-        /* margin: 40px 0 24px 0; */
         max-height: 205px;
         flex-wrap: wrap;
     }
@@ -447,8 +403,6 @@
         text-decoration: underline;
     }
     .footer-nav .footer-nav__links-about {
-        /* justify-content: left;
-        margin: 24px 110px 0 110px; */
         align-items: flex-end;
         padding-left: 80px;
     }

@@ -2,12 +2,9 @@
 .nav-btn__social a {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
     width: 63px;
     height: 63px;
-    /* background: linear-gradient(144.1deg, #FFE193 12.45%, #FFC93F 89.31%);
-    box-shadow: 7px 7px 16px rgba(204, 151, 0, 0.6), -4px -4px 8px #FFDB7E, inset 13px 22px 8px #F1C74F; */
     border-radius: 50%;
 }
 
@@ -24,7 +21,6 @@
 
 .btn-social-bg--yellow:hover {
     background: linear-gradient(150.26deg, #FFEAAD 6.75%, #FCE6A7 45.73%, #FFC726 91.17%);
-    /* box-shadow: 3px 3px 13px #C18F00; */
 }
 
 .btn-social-bg--yellow:active {
@@ -37,9 +33,7 @@
     height: 49px;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
-    
     border-radius: 50%;
 }
 
@@ -56,7 +50,6 @@
 .btn-social-bg--white img {
     width: 30px;
     height: 100%;
-    
 }
 
 .btn-social-bg--white:hover {

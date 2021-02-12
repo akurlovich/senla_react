@@ -1,7 +1,4 @@
 @media (min-width: 1024px) and (max-width: 1269px) {
-    /* .wrapper {
-        max-width: 1269px;
-    } */
     .header_title {
         height: 511px;
         margin-top: 33px;
@@ -61,8 +58,6 @@
     .kind_hearts_img__circle-small {
         width: 170px;
         height: 170px;
-        /* margin-top: -156px;
-        margin-left: 299px; */
         border: 6px solid #FFC41E;
         top: 250px;
         left: 300px;
@@ -115,9 +110,6 @@
         font-size: 24px;
     }
     .thanks-for-help__img-rectangle {
-        /* position: absolute;
-        top: 50%;
-        transform: translateY(-50%);*/
         margin-top: 0;
     }
     .thanks-for-help__img-circle {
@@ -125,8 +117,6 @@
         top: 0;
     }
     .thanks-for-help_text {
-        /* top: 227px;
-        left: 100px; */
         font-size: 48px;
         line-height: 58px;
         width: 250px;
