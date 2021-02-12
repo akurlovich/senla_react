@@ -6,13 +6,10 @@ html {
 
 .body {
     max-height: 100%;
-    font-family: Gilroy;
-    
 }
 
 .header {
     position: relative;
-    
 }
 
 .wrapper {
@@ -32,43 +29,27 @@ html {
     padding-top: 25px;
     z-index: 3;
     position: relative;
-    
-    
 }
 
 .burger-icon {
     display: none;
 }
 
-/* .nav-mobile-close-btn {
-    display: none;
-} */
-
-
 
 .menu ul {
     display: flex;
-    /* flex-direction: row; */
     align-items: center;
 }
 
 .menu li {
     padding-right: 32px;
-    /* font-family: Gilroy; */
-    /* font-style: normal; */
-    /* font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    color: #242424; */
 }
 
 @keyframes move-nav-social {
     from {
-        // transform: translateX(-2000px);
         opacity: 0;
     }
     to {
-        // transform: translateX(0);
         opacity: 1;
     }
 }
@@ -86,8 +67,6 @@ html {
 }
 
 .menu a {
-    /* font-family: Gilroy; */
-    /* font-style: normal; */
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
@@ -97,7 +76,6 @@ html {
 @media (max-width: 1023px) {
     .header .header_title {
         margin-top: 0;
-        /* padding-top: 80px; */
     }
     .nav-mobile-bg {
         width: 100%;
@@ -105,21 +83,14 @@ html {
         background-color: rgba(0, 0, 0, 0.5);
         position: fixed;
         z-index: 9;
-        /* opacity: 0.4; */
-        /* display: none; */
     }
     .burger-icon {
         display: flex;
         justify-content: space-between;
-        /* background-color: #FFC41E; */
-        /* background-color: #F6F6F6; */
-        /* background-color: #F6F6F6; */
         padding-top: 34px;
         padding-left: 115px;
         padding-bottom: 26px;
         padding-right: 157px;
-        /* border-bottom: 1px solid #FFC41E; */
-        /* position: absolute; */
     }
     .mobile-social-header-links {
         display: flex;
@@ -138,7 +109,6 @@ html {
         transition: all 0.4s;
         width: 30px;
         height: 20px;
-        /* border: 1px solid black; */
         position: relative;
     }
     .burger__line {
@@ -171,28 +141,20 @@ html {
     }
     .menu-nav_social li {
         display: none;
-        /* background-color: none; */
     }
     .menu {
         display: block;
         margin: 0;
         padding: 0;
-        /* position: fixed; */
         z-index: 10;
         top: 0;
         left: 0;
         width: 100%;
-        /* background-color: #FFFFFF; */
     }
-    /* .bg-in-nav-menu-ul {
-        background-color: #FFFFFF;
-    } */
     .menu ul {
         display: block;
         text-align: center;
         background-color: #FFFFFF;
-        /* margin-block-start: 0;
-        margin-block-end: 0; */
     }
     .menu li {
         padding: 0;
@@ -208,29 +170,7 @@ html {
         padding-bottom: 45px;
         border: none;
     }
-    /* .nav-mobile-close-btn {
-        display: none;
-        background-color: rgba(0, 0, 0, 0);
-        align-items: center;
-        justify-content: center;
-        color: #FFFFFF;
-        padding-top: 24px;
-        padding-left: 10px;
-    } */
-    /* .nav-mobile-close-btn-show {
-        display: flex;
-    } */
-
-    /* .nav-mobile-close-btn span {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-    }
-    .nav-mobile-close-btn svg {
-        cursor: pointer;
-    } */
     .mobile-menu-view {
-        /* display: block; */
         display: none;
     }
     .mobile-menu-show {
@@ -257,16 +197,9 @@ html {
     height: 736px; /*!скорее всего не привильно*/
     z-index: 3;
     animation: 3s move-text-header;
-    /* -webkit-transition-delay: 3s;
-    -moz-transition-delay: 3s;
-    -o-transition-delay: 3s;
-    transition-delay: 3s; */
-    
 }
 
 .title_header {
-    /* font-family: Gilroy; */
-    font-style: normal;
     font-weight: bold;
     font-size: 72px;
     line-height: 87px;
@@ -276,18 +209,13 @@ html {
 }
 
 .title_text_one {
-    /* font-family: Gilroy; */
-    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
     color: #6B6B6B;
-    
 }
 
 .title_text_two {
-    /* font-family: Gilroy; */
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
@@ -298,8 +226,6 @@ html {
 }
 
 .title_text_three {
-    /* font-family: Gilroy; */
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
@@ -308,50 +234,25 @@ html {
 }
 
 .title_button {
-    /* background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
-    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
-    border-radius: 58px;
-
-
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    color: #242424;
-    font-family: Gilroy; */
-
     height: 42px;
     width: 183px;
-    
-
-    /* align-items: center;
-    text-align: center; */
-
     margin-top: 44px;
-
-    
-
 }
 
 .mobile-header-btn {
     display: none;
-    
 }
 
 .mobile-title_text_three {
     display: none;
-    
 }
 
 @keyframes move-dog {
     from {
-        /* top: 2000px; */
         transform: translateX(2000px);
         opacity: 0.4;
     }
     to {
-        /* top: 470px; */
         transform: translateX(0);
         opacity: 1;
     }
@@ -362,7 +263,6 @@ html {
     width: 718px;
     height: 713px;
     right: 110px;
-    /* left: 538px; */
     top: 0px;
     background: url(../images/dog_1.png);
     border-radius: 0px 0px 8px 8px;
@@ -373,12 +273,10 @@ html {
 
 @keyframes move-cat {
     from {
-        /* top: 2000px; */
         transform: translateY(2000px);
         opacity: 0.4;
     }
     to {
-        /* top: 470px; */
         transform: translateY(0);
         opacity: 1;
     }
@@ -394,12 +292,10 @@ html {
 
 @keyframes move-bg_text {
     from {
-        /* top: 2000px; */
         transform: translateY(2000px);
         opacity: 0.4;
     }
     to {
-        /* top: 470px; */
         transform: translateY(0);
         opacity: 1;
     }
@@ -413,33 +309,22 @@ html {
     animation: 1.5s move-bg_text;
 }
 
-
 .kind_hearts {
-    /* height: 650px; */
     background: #FFFFFF;
     display: flex;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    /* flex-direction: row; */
-    /* width: 100%; */
     height: 615px;
 }
 
 .kind_hearts_img {
     flex: 0 0 50%;
-    /* width: 450px; */
-    /* flex-grow: 1; */
-    /* flex: 0 0 650px; */
     margin-top: 50px;
     position: relative;
-    
 }
 
 .kind_hearts_img__rectangle {
     width: 55%;
     height: 521px;
     background: #FFC41E;
-    /* margin-top: 54px; */
     margin-bottom: 74px;
     position: absolute;
 }
@@ -450,11 +335,8 @@ html {
     width: 521px;
     height: 521px;
     margin-top: 0;
-    /* margin-left: 78px; */
     border: 34px solid #FFC41E;
     border-radius: 50%;
-    /* border-color: #FFC41E; */
-    /* background: #FFC41E; */
     left: 55%;
     transform: translateX(-50%);
 }
@@ -473,15 +355,9 @@ html {
 .kind_hearts_title {
     margin-top: 128px;
     padding-right: 20px;
-    /* flex: 0 0 auto; */
-   /* max-width: 50%; */
-    /* width: 50%; */
-    /* flex-grow: 1; */
 }
 
 .kind_hearts_title p {
-    /* font-family: Gilroy; */
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -491,8 +367,6 @@ html {
 }
 
 .kind_title_header {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 120%;
@@ -505,19 +379,14 @@ html {
 .how_help {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* height: 470px; */
     width: 100%;
     background: #F6F6F6;
 }
 
 .how_help_header {
-    /* font-family: Gilroy;
-    font-style: normal; */
     font-weight: 300;
     font-size: 28px;
     line-height: 24px;
-    
     align-items: center;
     text-align: center;
     color: #242424;
@@ -537,55 +406,34 @@ html {
 }
 
 .how_help_items { /*! отступы между значками не как в шаблоне */
-    
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     justify-content: space-evenly;
     flex-wrap:wrap;
-    /* margin: 0 118px 86px 118px; */
-    /* align-items: center; */
     margin-bottom: 86px;
     padding: 0 30px 0 30px;
     animation: 2s move-how-help;
     animation-duration:5s;
-    /* -webkit-animation-delay: 5s;
-    -moz-animation-delay: 5s;
-    -o-animation-delay: 5s;
-    animation-delay: 5s;
-    opacity: 1; */
-    
-
 }
 
 .how_help_items div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width: 166px;
     max-height: 240px; 
     text-align: center;
-    /* font-family: Gilroy;
-    font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
-    /* margin-left: 20px; */
     margin: 0 30px 0 30px;
 }
 
 .how_help_items p {
     margin-top: 24px;
-    /* margin-left: 20px; */
 }
 
 .image_from_section {
-    /* width: 100%; */
-    /* display: inline-block; */
     text-align: center; /*отцентрировало картинку в блоке*/
-    /*align-items: center; */
-    
 }
 
 .image_from_section img { /*! нужен было именно так сделать, почему не знаю!!!!*/
@@ -602,30 +450,21 @@ html {
 }
 
 .what_can_do h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
-    /* display: flex;
-    align-items: center; */
     color: #242424;
     margin-bottom: 20px;
 }
 
 .what_can_do p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #242424;
-    /* padding-right: 90px; */
 }
 
 .ward_animals h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 300;
     font-size: 28px;
     line-height: 24px;
@@ -634,23 +473,16 @@ html {
 }
 .ward-animals__see-all {
     display: flex;
-    /* flex-direction: row;
-    text-align: center;
-    align-items: center; */
     justify-content: center;
-    /* width: 100%; */
     margin-top: 24px;
     margin-bottom: 65px;
 }
 
 .ward-animals__see-all a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
     display: flex;
-    /* align-items: center; */
     text-decoration-line: underline;
     color: #AD7F00;
     margin-right: 16px;
@@ -661,7 +493,6 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    
 }
 
 .ward_animals__card:nth-child(1) { /*! класс именно тех элементов, среди который выбираешь*/
@@ -675,27 +506,20 @@ html {
 
 .ward_animals__card {
     height: 555px;
-    /* width: 368px; */
     flex: 0 1 368px;
-    /* flex-wrap: wrap; */
     background: #F6F6F6;
     box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
     border-radius: 5px;
     margin-right: 21px;
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
-    /* align-items: center; */
     padding: 16px 16px 7px 17px;
 }
 
 .ward_animals__card h4 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 20px;
-    /* display: flex; */
     align-items: center;
     text-align: center;
     color: #242424;
@@ -703,8 +527,6 @@ html {
 }
 
 .animals-card__text {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -714,8 +536,6 @@ html {
 }
 
 .animals-card__text-bold {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -724,12 +544,10 @@ html {
 } 
 
 .ward_animals__card a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
-     display: flex;
+    display: flex;
     align-items: center;
     text-decoration-line: underline;
     color: #AD7F00;
@@ -772,40 +590,14 @@ html {
 }
 
 .send-btn--go-home {
-    /* background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px; */
     height: 42px;
     width: 209px;
-    /* font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    /* display: flex; */
-    /* align-items: center;
-    text-align: center;
-    color: #242424; */ 
     margin-bottom: 16px;
-
 }
 
 .send-btn--overexposure {
-    /* background: #F6F6F6;
-    background: #F6F6F6;
-    box-shadow: 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px;
-    align-items: center;
-    text-align: center; */
     height: 42px;
     width: 298px;
-    /* font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-     color: #242424; */
-
 }
 
 .ward_animals__socials ul {
@@ -819,15 +611,13 @@ html {
 
 .ward_animals__socials li:nth-child(1) {
     margin-right: 38px;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     text-align: left;
-    Width: 583px;
-    Height: 48px;
+    width: 583px;
+    height: 48px;
 }
 
 .ward_animals__socials li:nth-child(2) {
@@ -841,32 +631,23 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .finance-help>h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
-    /* align-items: center; */
     text-align: center;
     color: #242424;
     padding: 58px 0 24px 0;
 }
 
 .finance-help>p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    /* display: block; */
-    /* align-items: center; */
     text-align: center;
     max-width: 758px;
-    /* height: 55px; */
     color: #6B6B6B;
     margin-left: auto; /*! отцентрировать блок помогло это*/   
     margin-right: auto;
@@ -880,8 +661,6 @@ html {
 }
 
 .finance-help ul>li>h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 300;
     font-size: 28px;
     line-height: 24px;
@@ -890,8 +669,6 @@ html {
 }
 
 .finance-help ul>li>p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 200%; /* было 140 */
@@ -899,23 +676,7 @@ html {
     margin-bottom: 24px;
 }
 
-.finance-help__bill--btn {
-    /* background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px; */
-    Width: 221px;
-    Height: 42px;
-    /* font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    color: #242424; */
-}
-
 .finance-help ul>li>a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
@@ -929,8 +690,6 @@ html {
 }
 
 .necessary-things__conteiner h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
@@ -941,8 +700,6 @@ html {
 
 .necessary-things__conteiner p {
     margin-bottom: 40px;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -950,8 +707,6 @@ html {
 }
 
 .necessary-things__conteiner a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
@@ -965,8 +720,6 @@ html {
 }
 
 .auto-help__conteiner h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
@@ -975,27 +728,11 @@ html {
 }
 
 .auto-help__conteiner p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
     color: #242424;
     margin-bottom: 24px;
-}
-
-.auto-help--btn {
-    /* background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px; */
-    Width: 221px;
-    Height: 42px;
-    /* font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    color: #242424; */
 }
 
 .volunteering__conteiner {
@@ -1009,8 +746,6 @@ html {
 }
  
 .volunteering__conteiner h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
@@ -1020,8 +755,6 @@ html {
 }
 
 .volunteering__conteiner p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -1031,17 +764,6 @@ html {
 }
 
 .send-btn--volunteering-title {
-    /* background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
-    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
-    border-radius: 58px; */
-    Width: 221px;
-    Height: 42px;
-    /* font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 40px;
-    color: #242424; */
     margin: 24px 0 162px 0;
 }
 
@@ -1051,7 +773,6 @@ html {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* align-items: center; */
 }
 
 @keyframes move-news {
@@ -1067,46 +788,31 @@ html {
 
 .news__block { /*! вроде оптимальный вариант центрирования*/
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center; */
     max-width: 778px;
     margin: 0 auto;
-    /* text-align: center; */
     padding-top: 40px;
-    /* justify-content: center; */
     align-items: center; /*! центрирование по вертикали*/
     animation: 2s move-news;
-    
 }
-
 
 .news_row {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     max-width: 778px;
     margin: 0 auto;
     padding-bottom: 54px;
 }
 
 .news h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
-    /* display: flex;
-    align-items: center;
-    text-align: center; */
     color: #242424;
     margin: 54px 0 0 0;
-
 }
 
 .news a {
     text-align: left;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
@@ -1116,8 +822,6 @@ html {
 }
 
 .news__block p {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -1133,20 +837,15 @@ html {
 }
 
 .about_us h3 {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 24px;
     text-align: center;
     color: #242424;
     margin: 58px 0 24px 0;
-
 }
 
 .about_us__text-about {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -1156,8 +855,6 @@ html {
 
 .about_us__text-title {
     margin: 24px 0;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 26px;
@@ -1165,8 +862,6 @@ html {
 }
 
 .about_us__text-contacts {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -1175,8 +870,6 @@ html {
 }
 
 .about_us__text-social {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
@@ -1195,20 +888,15 @@ html {
 .thanks-for-help {
     position: relative;
     margin-top: 40px;
-
 }
 
 .thanks-for-help_text {
-    /* font-family: Gilroy;
-    font-style: normal; */
     font-weight: bold;
     font-size: 64px;
     line-height: 77px;
     color: #FFFFFF;
     position: absolute;
-    /* left: 134px; */
     left: 8%;
-    /* top: 303px; */
     top: 50%;
     transform: translateY(-50%);
     width: 346px;
@@ -1221,7 +909,6 @@ html {
     height: 70.73px;
     left: 350px;
     top: 85px;
-
     transform: rotate(18.79deg);
 }
 
@@ -1235,25 +922,16 @@ html {
     transform: translateY(-50%);
     margin-top: 0;
     width: 30%;
-
-
-    /* margin-top: -620px; */
     background: #322D1E;
-    /* opacity: 2; */
     mix-blend-mode: soft-light;
-    /* max-width: 100%;
-    max-height: 100%; */
         
 }
 
 .thanks-for-help__img-circle {
-    /* max-width: 521px; */
     left: 100%;
     max-height: 521px;
     margin-top: 0;
-    /* margin-left: 78px; */
     border: none;
-    /* border: 34px solid #FFC41E; */
     border-radius: 50%;
     background: #322D1E;
 
@@ -1261,14 +939,12 @@ html {
 
 .footer-nav {
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-evenly;
 }
 
 .footer-nav ul {
     display: flex;
     margin: 40px 0 24px 0;
-    
 }
 
 .footer-nav li {
@@ -1276,19 +952,14 @@ html {
 }
 
 .footer-nav__links a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    /* text-align: center;
-    text-decoration-line: underline; */
+    text-decoration-line: underline; 
     color: #474747;
 }
 
 .footer-nav__links-about a {
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
@@ -1303,13 +974,10 @@ html {
 .footer p {
     text-align: center;
     margin-bottom: 16px;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 140%;
     color: #B3B3B3;
-
 }
 
 .image_from_section:before,
