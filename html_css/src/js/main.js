@@ -37,24 +37,6 @@ window.addEventListener('DOMContentLoaded', () => {
       }
   });
 
-  // document.querySelector('.burger-icon-click-close').addEventListener('click', () => {
-  //     menuShow.forEach(e => {
-  //         e.classList.toggle('mobile-menu-show');
-
-  //     });
-  //     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
-  // });
-
-  // *-----------------------окно волонтерство */
-  // document.querySelector('.volunteering-open').addEventListener('click', () => {
-  //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
-  //     document.body.style.overflow = 'hidden';
-  // });
-
-  // document.querySelector('.volunteering-close-window').addEventListener('click', () => {
-  //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
-  //     document.body.style.overflow = '';
-  // });
 
   function showModal (classClick, classWindow) {
       document.querySelector(classClick).addEventListener('click', () => {
@@ -73,30 +55,23 @@ window.addEventListener('DOMContentLoaded', () => {
   showModal('.volunteering-open', '.modal-windows__volunteering');
   closeModal('.volunteering-close-window', '.modal-windows__volunteering');
 
-  // const homeBtn = document.querySelectorAll('.home__send-btn'),
-  //       overexposureBtn = document.querySelectorAll('.overexposure__send-btn');
-  // console.log(homeBtn);
 
   homeBtn.forEach(btn => {
-      // showModal('.home__send-btn', '.modal-windows__home');
       btn.addEventListener('click', () => {
           document.querySelector('.modal-windows__home').classList.toggle(modalActive);
           document.body.style.overflow = 'hidden';
       });
   });
 
-  // showModal('.home__send-btn', '.modal-windows__home');
   closeModal('.home-close-window', '.modal-windows__home');
 
   overexposureBtn.forEach(btn => {
-      // showModal('.home__send-btn', '.modal-windows__home');
       btn.addEventListener('click', () => {
           document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
           document.body.style.overflow = 'hidden';
       });
   });
 
-  // showModal('.overexposure__send-btn', '.modal-windows__overexposure');
   closeModal('.overexposure-close-window', '.modal-windows__overexposure');
 
   showModal('.transfer-btn-open', '.modal-windows__transfer');
@@ -113,18 +88,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   showModal('.all-news__open-btn', '.modal-windows__news');
   closeModal('.modal-windows__close-btn', '.modal-windows__news');
+
+  
+
 });
 
-
-// all-ward-animals__close-btn
-// all-ward-animals__open-btn
-// modal-windows__all-ward-animals
-// about-pet__open-btn
-// modal-windows__about-pet
-// about-pet-close-window
-// autohelp__send-btn
-// modal-window__autohelp
-// transfer-btn-open
-// modal-windows__transfer
-// transfer-close-window
-// closeModal('.volunteering-close-window', '.modal-windows__home');
