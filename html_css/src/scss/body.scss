@@ -782,16 +782,16 @@ html {
     text-align: center;
 }
 
-@keyframes move-news {
-    from {
-        transform: translateX(-2000px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
+// @keyframes move-news {
+//     from {
+//         transform: translateX(-2000px);
+//         opacity: 0;
+//     }
+//     to {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+// }
 
 .news__block { /*! вроде оптимальный вариант центрирования*/
     display: flex;
@@ -799,7 +799,7 @@ html {
     margin: 0 auto;
     padding-top: 40px;
     align-items: center; /*! центрирование по вертикали*/
-    animation: 2s move-news;
+    // animation: 2s move-news;
 }
 
 .news_row {
@@ -808,6 +808,9 @@ html {
     max-width: 778px;
     margin: 0 auto;
     padding-bottom: 54px;
+    transform: translateX(-300px);
+    transition-duration: 1s;
+    opacity: 0;
 }
 
 .news h3 {
@@ -1025,3 +1028,7 @@ html {
     right: -34px;
 }
 
+.move-news {
+    transform: translateX(0);
+    opacity: 1;
+}

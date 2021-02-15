@@ -89,7 +89,20 @@ window.addEventListener('DOMContentLoaded', () => {
   showModal('.all-news__open-btn', '.modal-windows__news');
   closeModal('.modal-windows__close-btn', '.modal-windows__news');
 
-  
+
+  const newsHeight = document.querySelector('.news');
+  window.addEventListener('scroll', () => {
+    let scrollTop = window.scrollY;
+    // let newsCenter = newsHeight.offsetHeight;
+    let windowCenter = (window.innerHeight / 2) + scrollTop;
+    const scrollOffset = (newsHeight.offsetTop - 100);
+      // + (newsHeight.offsetHeight) / 100);
+    if (windowCenter >= scrollOffset) {
+      document.querySelector('.news_row').classList.add('move-news');
+    }
+    // console.log(newsHeight.offsetHeight);
+    // console.log(scrollTop);
+  });
 
 });
 
