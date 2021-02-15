@@ -542,6 +542,7 @@ html {
     line-height: 20px;
     color: #242424;
     flex: 1 1 auto; /*! растянули блок к низу*/
+    overflow: hidden;
 } 
 
 .ward_animals__card a {
