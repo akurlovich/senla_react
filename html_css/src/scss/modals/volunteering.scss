@@ -95,9 +95,10 @@
     display: block;
     z-index: 100;
     background-color: #FFFFFF;
+    cursor: text;
 }
 
-.modals-input:hover + .label-input,
+// .modals-input:hover + .label-input,
 .modals-input:not(:placeholder-shown) + .label-input,
 .modals-input:focus + .label-input {
     transform: translateY(-21px);

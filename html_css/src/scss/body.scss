@@ -249,7 +249,7 @@ html {
 
 @keyframes move-dog {
     from {
-        transform: translateX(2000px);
+        transform: translateX(500px);
         opacity: 0.4;
     }
     to {
@@ -273,8 +273,8 @@ html {
 
 @keyframes move-cat {
     from {
-        transform: translateY(2000px);
-        opacity: 0.4;
+        transform: translateY(300px);
+        opacity: 0;
     }
     to {
         transform: translateY(0);
