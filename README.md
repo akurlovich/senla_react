@@ -5,7 +5,7 @@
 2. [codecademy] (https://www.codecademy.com/profiles/7809232028)
 ---
    
-##### Webpack настроен и подключен для сборки.
+##### Webpack настроен и подключен для сборки проекта.
 Все необходимые зависимости указаны в ```package.json```
 Для *development* сборки запустить ```npm run dev```
 Для *producton* сборки запустить ```npm run build```
