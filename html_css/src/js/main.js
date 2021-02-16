@@ -90,18 +90,32 @@ window.addEventListener('DOMContentLoaded', () => {
   closeModal('.modal-windows__close-btn', '.modal-windows__news');
 
 
-  const newsHeight = document.querySelector('.news');
+  const newsHeight = document.querySelector('.news'),
+        helpHeight = document.querySelector('.how_help');
+
   window.addEventListener('scroll', () => {
-    let scrollTop = window.scrollY;
-    // let newsCenter = newsHeight.offsetHeight;
-    let windowCenter = (window.innerHeight) + scrollTop;
-    const scrollOffset = (newsHeight.offsetTop  + (newsHeight.offsetHeight));
-    if (windowCenter >= scrollOffset) {
-      document.querySelector('.news_row').classList.add('move-news');
-    }
-    // console.log(newsHeight.offsetHeight);
-    // console.log(scrollTop);
+    setTimeout(() => {
+      let scrollTop = window.scrollY;
+      // let newsCenter = newsHeight.offsetHeight;
+      let windowCenter = (window.innerHeight) + scrollTop;
+      const scrollNews = (newsHeight.offsetTop  + (newsHeight.offsetHeight)),
+            scrollHelp = (helpHeight.offsetTop  + (helpHeight.offsetHeight));
+      if (windowCenter >= scrollNews) {
+        document.querySelector('.news_row').classList.add('move-news');
+      }
+      if (windowCenter >= scrollHelp) {
+        document.querySelector('.how_help_items').classList.add('move-news');
+      }
+      // console.log(window.innerHeight);
+      // console.log(scrollTop);
+      // console.log(scrollHelp);
+    }, 500);
+      
   });
 
 });
+
+
+
+
 

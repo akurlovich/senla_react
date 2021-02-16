@@ -306,7 +306,7 @@ html {
     z-index: 1;
     left: 2px;
     top: 374px;
-    animation: 1.5s move-bg_text;
+    // animation: 1.5s move-bg_text;
 }
 
 .kind_hearts {
@@ -394,16 +394,16 @@ html {
     margin-bottom: 47px;
 }
 
-@keyframes move-how-help {
-    from {
-        transform: translateY(400px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+// @keyframes move-how-help {
+//     from {
+//         transform: translateY(400px);
+//         opacity: 0;
+//     }
+//     to {
+//         transform: translateY(0);
+//         opacity: 1;
+//     }
+// }
 
 .how_help_items { /*! отступы между значками не как в шаблоне */
     display: flex;
@@ -411,9 +411,12 @@ html {
     flex-wrap:wrap;
     margin-bottom: 86px;
     padding: 0 30px 0 30px;
-    animation: 2s move-how-help;
+    // animation: 2s move-how-help;
     // animation-duration: 10s;
     // animation-delay: 10s;
+    transform: translateY(300px);
+    transition-duration: 1s;
+    opacity: 0;
 }
 
 .how_help_items div {
@@ -1030,5 +1033,6 @@ html {
 
 .move-news {
     transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
 }
