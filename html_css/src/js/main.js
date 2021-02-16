@@ -94,9 +94,8 @@ window.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', () => {
     let scrollTop = window.scrollY;
     // let newsCenter = newsHeight.offsetHeight;
-    let windowCenter = (window.innerHeight / 2) + scrollTop;
-    const scrollOffset = (newsHeight.offsetTop - 100);
-      // + (newsHeight.offsetHeight) / 100);
+    let windowCenter = (window.innerHeight) + scrollTop;
+    const scrollOffset = (newsHeight.offsetTop  + (newsHeight.offsetHeight));
     if (windowCenter >= scrollOffset) {
       document.querySelector('.news_row').classList.add('move-news');
     }
