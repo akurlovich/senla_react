@@ -107,7 +107,7 @@ window.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.how_help_items').classList.add('move-news');
       }
       // console.log(window.innerHeight);
-      // console.log(scrollTop);
+      console.log(scrollTop);
       // console.log(scrollHelp);
     }, 500);
       
