@@ -1,9 +1,17 @@
-# senla_react
+## Проект по лендингу на курсе React Developer (SENLA)
 Ссылки на тренажёры:
 1. [htmlacademy] (https://htmlacademy.ru/profile/id1673113)
 2. [codecademy] (https://www.codecademy.com/profiles/7809232028)
    
-### Готовый проект собран в папке app
+##### Webpack настроен и подключен для сборки.
+Все необходимые зависимости указаны в package.json
 
-(тренажёр на академии) [https://htmlacademy.ru/profile/id1673113]
-(тренажер на codecademy) [https://www.codecademy.com/profiles/7809232028]
+##### Модальные окна 
+Открытие и закрытие реализовано через js.
+
+##### Вёрстка
+Реализована адаптивно-отзывчивая вёрстка основной страницы с учетом всех breakpoint'ов.
+#####Автор:
++ Курлович Артём Олегович (Kurlovich Artem)
+ iamtutwas@gmail.com 
+ KurlovichArtem (Rocket username)
