@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
       //   menuClick = document.querySelector('.burger-icon-click'),
         homeBtn = document.querySelectorAll('.home__send-btn'),
         overexposureBtn = document.querySelectorAll('.overexposure__send-btn'),
+        aboutBtn = document.querySelectorAll('.about-pet__open-btn'),
         modalActive = 'modal-window-active'; // класс с display: block
 
   // *--открытие мобильного меню--//
@@ -57,19 +58,19 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
   homeBtn.forEach(btn => {
-      btn.addEventListener('click', () => {
-          document.querySelector('.modal-windows__home').classList.toggle(modalActive);
-          document.body.style.overflow = 'hidden';
-      });
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__home').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });
   });
 
   closeModal('.home-close-window', '.modal-windows__home');
 
   overexposureBtn.forEach(btn => {
-      btn.addEventListener('click', () => {
-          document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
-          document.body.style.overflow = 'hidden';
-      });
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });
   });
 
   closeModal('.overexposure-close-window', '.modal-windows__overexposure');
@@ -80,7 +81,14 @@ window.addEventListener('DOMContentLoaded', () => {
   showModal('.autohelp__send-btn', '.modal-window__autohelp');
   closeModal('.autohelp-close-window', '.modal-window__autohelp');
 
-  showModal('.about-pet__open-btn', '.modal-windows__about-pet');
+  aboutBtn.forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__about-pet').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });  
+  });
+
+  // showModal('.about-pet__open-btn', '.modal-windows__about-pet');
   closeModal('.about-pet-close-window', '.modal-windows__about-pet');
 
   showModal('.all-ward-animals__open-btn', '.modal-windows__all-ward-animals');

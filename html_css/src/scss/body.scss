@@ -502,6 +502,7 @@ html {
     box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
     border-radius: 5px;
     margin-right: 21px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     padding: 16px 16px 7px 17px;
@@ -548,7 +549,7 @@ html {
 .warm_animals__nav {
     display: flex;
     justify-content: space-between;
-    margin: 15px 256px 30px 256px;
+    margin: 25px 256px 30px 256px;
     text-align: center;
     align-items: center;
 }
