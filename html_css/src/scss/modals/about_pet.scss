@@ -45,9 +45,12 @@
 
 .about-pet__foto {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 31px;
-    grid-row-gap: 31px;
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-column-gap: 31px;
+    // grid-row-gap: 31px;
+    grid-template: repeat(auto-fit, 262px) / repeat(auto-fit, 236px);
+    justify-content: center;
+    grid-gap: 20px 20px;
     margin-bottom: 24px;
 }
 
