@@ -1,6 +1,4 @@
-/* eslint-disable indent */
-/* eslint-disable one-var */
-/* eslint-disable semi */
+
 import '../css/main.css';
 import '../scss/main.scss';
 import '../index.html';
