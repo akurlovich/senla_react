@@ -1,3 +1,4 @@
+
 ## Проект по лендингу "Помощь животным" на курсе *React Developer (SENLA)*.
 ---
 Ссылки на тренажёры:
@@ -20,3 +21,4 @@
 + Курлович Артём Олегович (Kurlovich Artem)
  iamtutwas@gmail.com 
  KurlovichArtem (Rocket username)
+
