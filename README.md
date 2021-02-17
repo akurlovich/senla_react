@@ -17,7 +17,7 @@
 ##### Вёрстка
 Реализована *адаптивно-отзывчивая* вёрстка основной страницы с учетом всех *breakpoint'ов*.
 ***
-#####Автор:
+##### Автор:
 + Курлович Артём Олегович (Kurlovich Artem)
  iamtutwas@gmail.com 
  KurlovichArtem (Rocket username)
