@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
       //   menuClick = document.querySelector('.burger-icon-click'),
         homeBtn = document.querySelectorAll('.home__send-btn'),
         overexposureBtn = document.querySelectorAll('.overexposure__send-btn'),
+        aboutBtn = document.querySelectorAll('.about-pet__open-btn'),
         modalActive = 'modal-window-active'; // класс с display: block
 
   // *--открытие мобильного меню--//
@@ -37,24 +38,6 @@ window.addEventListener('DOMContentLoaded', () => {
       }
   });
 
-  // document.querySelector('.burger-icon-click-close').addEventListener('click', () => {
-  //     menuShow.forEach(e => {
-  //         e.classList.toggle('mobile-menu-show');
-
-  //     });
-  //     document.querySelector('.nav-mobile-close-btn').classList.toggle('nav-mobile-close-btn-show');
-  // });
-
-  // *-----------------------окно волонтерство */
-  // document.querySelector('.volunteering-open').addEventListener('click', () => {
-  //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
-  //     document.body.style.overflow = 'hidden';
-  // });
-
-  // document.querySelector('.volunteering-close-window').addEventListener('click', () => {
-  //     document.querySelector('.modal-windows__volunteering').classList.toggle('modal-window-active');
-  //     document.body.style.overflow = '';
-  // });
 
   function showModal (classClick, classWindow) {
       document.querySelector(classClick).addEventListener('click', () => {
@@ -73,30 +56,23 @@ window.addEventListener('DOMContentLoaded', () => {
   showModal('.volunteering-open', '.modal-windows__volunteering');
   closeModal('.volunteering-close-window', '.modal-windows__volunteering');
 
-  // const homeBtn = document.querySelectorAll('.home__send-btn'),
-  //       overexposureBtn = document.querySelectorAll('.overexposure__send-btn');
-  // console.log(homeBtn);
 
   homeBtn.forEach(btn => {
-      // showModal('.home__send-btn', '.modal-windows__home');
-      btn.addEventListener('click', () => {
-          document.querySelector('.modal-windows__home').classList.toggle(modalActive);
-          document.body.style.overflow = 'hidden';
-      });
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__home').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });
   });
 
-  // showModal('.home__send-btn', '.modal-windows__home');
   closeModal('.home-close-window', '.modal-windows__home');
 
   overexposureBtn.forEach(btn => {
-      // showModal('.home__send-btn', '.modal-windows__home');
-      btn.addEventListener('click', () => {
-          document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
-          document.body.style.overflow = 'hidden';
-      });
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__overexposure').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });
   });
 
-  // showModal('.overexposure__send-btn', '.modal-windows__overexposure');
   closeModal('.overexposure-close-window', '.modal-windows__overexposure');
 
   showModal('.transfer-btn-open', '.modal-windows__transfer');
@@ -105,7 +81,14 @@ window.addEventListener('DOMContentLoaded', () => {
   showModal('.autohelp__send-btn', '.modal-window__autohelp');
   closeModal('.autohelp-close-window', '.modal-window__autohelp');
 
-  showModal('.about-pet__open-btn', '.modal-windows__about-pet');
+  aboutBtn.forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelector('.modal-windows__about-pet').classList.toggle(modalActive);
+      document.body.style.overflow = 'hidden';
+    });  
+  });
+
+  // showModal('.about-pet__open-btn', '.modal-windows__about-pet');
   closeModal('.about-pet-close-window', '.modal-windows__about-pet');
 
   showModal('.all-ward-animals__open-btn', '.modal-windows__all-ward-animals');
@@ -113,18 +96,34 @@ window.addEventListener('DOMContentLoaded', () => {
 
   showModal('.all-news__open-btn', '.modal-windows__news');
   closeModal('.modal-windows__close-btn', '.modal-windows__news');
+
+
+  const newsHeight = document.querySelector('.news'),
+        helpHeight = document.querySelector('.how_help');
+
+  window.addEventListener('scroll', () => {
+    setTimeout(() => {
+      let scrollTop = window.scrollY;
+      // let newsCenter = newsHeight.offsetHeight;
+      let windowCenter = (window.innerHeight) + scrollTop;
+      const scrollNews = (newsHeight.offsetTop  + (newsHeight.offsetHeight)),
+            scrollHelp = (helpHeight.offsetTop  + (helpHeight.offsetHeight));
+      if (windowCenter >= scrollNews) {
+        document.querySelector('.news_row').classList.add('move-news');
+      }
+      if (windowCenter >= scrollHelp) {
+        document.querySelector('.how_help_items').classList.add('move-news');
+      }
+      // console.log(window.innerHeight);
+    //   console.log(scrollTop);
+      // console.log(scrollHelp);
+    }, 500);
+      
+  });
+
 });
 
 
-// all-ward-animals__close-btn
-// all-ward-animals__open-btn
-// modal-windows__all-ward-animals
-// about-pet__open-btn
-// modal-windows__about-pet
-// about-pet-close-window
-// autohelp__send-btn
-// modal-window__autohelp
-// transfer-btn-open
-// modal-windows__transfer
-// transfer-close-window
-// closeModal('.volunteering-close-window', '.modal-windows__home');
+
+
+

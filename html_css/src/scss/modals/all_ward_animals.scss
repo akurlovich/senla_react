@@ -85,6 +85,10 @@
     grid-gap: 20px 20px;
 }
 
+.all-ward-animals__card:hover {
+    transform: scale(1.2);
+}
+
 .ward_animals__card:nth-child(3) {
     opacity: 1;
 }

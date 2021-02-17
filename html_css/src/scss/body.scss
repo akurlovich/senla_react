@@ -306,7 +306,7 @@ html {
     z-index: 1;
     left: 2px;
     top: 374px;
-    animation: 1.5s move-bg_text;
+    // animation: 1.5s move-bg_text;
 }
 
 .kind_hearts {
@@ -394,16 +394,6 @@ html {
     margin-bottom: 47px;
 }
 
-@keyframes move-how-help {
-    from {
-        transform: translateY(400px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
 .how_help_items { /*! отступы между значками не как в шаблоне */
     display: flex;
@@ -411,9 +401,9 @@ html {
     flex-wrap:wrap;
     margin-bottom: 86px;
     padding: 0 30px 0 30px;
-    animation: 2s move-how-help;
-    // animation-duration: 10s;
-    // animation-delay: 10s;
+    transform: translateY(300px);
+    transition-duration: 1s;
+    opacity: 0;
 }
 
 .how_help_items div {
@@ -512,6 +502,7 @@ html {
     box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
     border-radius: 5px;
     margin-right: 21px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     padding: 16px 16px 7px 17px;
@@ -558,7 +549,7 @@ html {
 .warm_animals__nav {
     display: flex;
     justify-content: space-between;
-    margin: 15px 256px 30px 256px;
+    margin: 25px 256px 30px 256px;
     text-align: center;
     align-items: center;
 }
@@ -686,6 +677,11 @@ html {
     color: #AD7F00;
 }
 
+.financial-link-btn {
+    width: 234px;
+    height: 42px;
+}
+
 .necessary-things__conteiner {
     max-width: 680px;
     margin: 53px auto 78px;
@@ -777,16 +773,16 @@ html {
     text-align: center;
 }
 
-@keyframes move-news {
-    from {
-        transform: translateX(-2000px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
+// @keyframes move-news {
+//     from {
+//         transform: translateX(-2000px);
+//         opacity: 0;
+//     }
+//     to {
+//         transform: translateX(0);
+//         opacity: 1;
+//     }
+// }
 
 .news__block { /*! вроде оптимальный вариант центрирования*/
     display: flex;
@@ -794,7 +790,7 @@ html {
     margin: 0 auto;
     padding-top: 40px;
     align-items: center; /*! центрирование по вертикали*/
-    animation: 2s move-news;
+    // animation: 2s move-news;
 }
 
 .news_row {
@@ -803,6 +799,9 @@ html {
     max-width: 778px;
     margin: 0 auto;
     padding-bottom: 54px;
+    transform: translateX(-300px);
+    transition-duration: 1s;
+    opacity: 0;
 }
 
 .news h3 {
@@ -1018,4 +1017,10 @@ html {
     /* margin-top: 70px; */
         /* Указываем в пикселях отступ линии от текста заголовка */
     right: -34px;
+}
+
+.move-news {
+    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
 }

@@ -20,6 +20,7 @@
     }
     .mobile-social-header-links {
         display: flex;
+        animation: 3s move-nav-social;
     }
     .mobile-social-header-links .btn-social--yellow {
         padding-right: 28px;
