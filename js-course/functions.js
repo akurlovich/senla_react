@@ -33,13 +33,48 @@ console.log(strReverse('tests'));
 
 // Написать функцию, которая проверяет является ли слово палиндромом
 
-перевернуть и сравнить
+const palindrom = str => {
+  let newStr = str.split('').reverse().join(''); 
+  (newStr == str) ? console.log('This is palindrom') : console.log('Is not palindrom');
+}
+
+palindrom('helleh')
 
 // Создать функцию, которая в качестве аргумента принимает строку из букв и возвращает строку, где каждый символ разделен пробелом и заменён на значение символа из юникода. ((hello) => "104 101 108 108 111")
 
+const unicodeStr = str => {
+  let newStr = [];
+  for (let i = 0; i < str.length; i++) {
+    newStr.push(str.charCodeAt(i));
+  }
+  return newStr.join(' ');
+}
+console.log(unicodeStr('hello'))
+
 // Написать функцию-рекурсию, которая выведет каждый символ строки в конcоль ('test') => 't' 'e' 's' 't'
+
+const strRec = str => {
+  if (str.length != 0) {
+    console.log(str[0]);
+    return strRec(str.slice(1));
+  } else {return str}
+};
+
+strRec('test')
+
 
 // Создать две функции и дать им осмысленные названия:
 
 // первая функция принимает массив и callback, возвращая строку из обработанного массива.
 // вторая функция (callback) обрабатывает каждый элемент массива 
+
+function funStr(str) {
+  return str.reverse().join('');
+}
+
+function arrayToString(arr, callback) {
+  // let arrStr = arr.split('');
+  console.log(callback(arr))
+}
+
+arrayToString(['a', 1, '4'], funStr);
