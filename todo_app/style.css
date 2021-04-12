@@ -19,5 +19,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   width: 100%;
   min-height: 1024px;
   margin: 0 auto;
-  background-color: red;
+  background-image: url(./img/taking_notes.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
