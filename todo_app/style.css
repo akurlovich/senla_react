@@ -19,7 +19,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   width: 100%;
   min-height: 1024px;
   margin: 0 auto;
-  background-image: url(./img/taking_notes.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  position: relative;
+}
+.container {
+  position: absolute;
+  right: 6px;
+  top: 218px;
+  max-width: 903px;
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+.container img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
