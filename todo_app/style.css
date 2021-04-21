@@ -176,8 +176,27 @@ color: #53565A;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-right: 21px;
+  opacity: 0;
+}
+.item:hover .makr-btn {
+  opacity: 1;
 }
 .del-btn {
   width: 40px;
+}
+&:hover .tooltip__main { /* По hover отображаем тултип */
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.4s ease-in-out;
+}
+    
+&:hover .tooltip__main img { /* Показываем изображение */
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.4s ease-in-out;
+}
+&:hover svg path {
+  fill: #EB5757;
+  transition: all 0.4s ease-in-out;
 }
 
