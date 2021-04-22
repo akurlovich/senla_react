@@ -157,7 +157,16 @@ color: #53565A;
 .star {
   width: 20px;
   margin-right: 5px;
+  /* visibility: hidden; */
+  display: none;
 }
+.star__active {
+  display: block;
+}
+.btn__none {
+  display: none;
+}
+
 .task-text {
   display: block;
   flex-grow: 1;
@@ -177,26 +186,46 @@ color: #53565A;
   color: #FFFFFF;
   margin-right: 21px;
   opacity: 0;
+  visibility: hidden;
 }
-.item:hover .makr-btn {
+.not-mark-btn {
+  background: #BDBDBD;
+  width: 183px;
+  height: 36px;
+  border-radius: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 21px;
+  opacity: 0;
+  visibility: hidden;
+}
+.item:hover .mark-btn,
+.item:hover .not-mark-btn {
+  visibility: visible;
   opacity: 1;
 }
+
+/* .item:hover .not-mark-btn {
+  visibility: visible;
+  opacity: 1;
+} */
+/* .item:hover .star {
+  visibility: visible;
+} */
 .del-btn {
   width: 40px;
+  visibility: hidden;
+  cursor: pointer;
 }
-&:hover .tooltip__main { /* По hover отображаем тултип */
-  opacity: 1;
+.item:hover .del-btn {
   visibility: visible;
-  transition: all 0.4s ease-in-out;
+  /* opacity: 1; */
 }
-    
-&:hover .tooltip__main img { /* Показываем изображение */
-  opacity: 1;
-  visibility: visible;
-  transition: all 0.4s ease-in-out;
-}
-&:hover svg path {
-  fill: #EB5757;
-  transition: all 0.4s ease-in-out;
-}
+
 
