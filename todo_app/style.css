@@ -168,9 +168,14 @@ color: #53565A;
 }
 
 .task-text {
+  cursor: pointer;
   display: block;
   flex-grow: 1;
 }
+.task-checked {
+  text-decoration: line-through;
+}
+
 .mark-btn {
   width: 183px;
   height: 36px;

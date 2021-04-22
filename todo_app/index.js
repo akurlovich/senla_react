@@ -22,6 +22,7 @@ addButton.addEventListener('click', () => {
   todoList.push(newTodo);
   displayMessages();
   // localStorage.setItem('todo', JSON.stringify(todoList));
+  addMessage.value = '';
 });
 
 function displayMessages() {
@@ -30,7 +31,7 @@ function displayMessages() {
     displayMessage += `
     <div class="item" id='item_${i}'>
       <img class="star ${item.important ? 'star__active' : ''}" id='star-item_${i}' src="./img/star.svg" alt="">
-      <p class="task-text">${item.todo}</p>
+      <p class="task-text ${item.checked ? 'task-checked' : ''}" id='task-item_${i}'>${item.todo}</p>
       <button class="mark-btn ${item.important ? 'btn__none' : ''}" id='mark-item_${i}'>MARK IMPORTANT</button>
       <button class="not-mark-btn ${item.important ? '' : 'btn__none'}" id='not-mark-item_${i}'>not IMPORTANT</button>
       <img class="del-btn" id='btn-item_${i}' src="./img/Delete.svg" alt="">
@@ -72,6 +73,16 @@ todo.addEventListener('click', (event) => {
     if (todoList[targetIndex].important) {
       todoList[targetIndex].important = false;
     } else {todoList[targetIndex].important = true};
+
+    console.log(todoList);
+  }
+
+  if (event.target.classList.contains('task-text')) {
+    // console.log(document.querySelector(`#star-item_${targetIndex}`));
+    // document.querySelector(`#star-item_${targetIndex}`).classList.toggle('star__active');
+    if (todoList[targetIndex].checked) {
+      todoList[targetIndex].checked = false;
+    } else {todoList[targetIndex].checked = true};
 
     console.log(todoList);
   }
