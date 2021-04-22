@@ -75,17 +75,18 @@ main {
 .navigation {
   display: flex;
 }
-.navigation li {
+/* .navigation  */
+li {
   font-size: 16px;
   line-height: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
-color: #53565A;
+  color: #53565A;
   width: 175px;
   height: 50px;
+  cursor: pointer;
 }
 .active {
   border-top: 4px solid #2F80ED;
@@ -93,11 +94,15 @@ color: #53565A;
   font-size: 16px;
   line-height: 19px;
   color: #53565A;
+  cursor: default;
 }
 .add-tasks {
   margin-top: 18px;
   display: flex;
   flex-direction: column;
+}
+.add-none {
+  display: none;
 }
 .add-tasks p {
   font-size: 12px;
