@@ -48,8 +48,11 @@ function displayMessages() {
 
 function displayActive() {
   let displayMessage = '';
+  todo.innerHTML = '';
+  console.log(todoList);
   todoList.forEach((item, i) => {
     if (item.important) {
+      console.log(item);
       displayMessage += `
       <div class="item" id='item_${i}'>
         <img class="star ${item.important ? 'star__active' : ''}" id='star-item_${i}' src="./img/star.svg" alt="">
@@ -60,13 +63,16 @@ function displayActive() {
       </div>
       `;
       todo.innerHTML = displayMessage;
-    } else todo.innerHTML = '';
+    };
+    // else todo.innerHTML += '';
   })
   // localStorage.setItem('todo', JSON.stringify(todoList));
 };
 
 function displayDone() {
   let displayMessage = '';
+  todo.innerHTML = '';
+  console.log(todoList);
   todoList.forEach((item, i) => {
     if (item.checked) {
       displayMessage += `
@@ -79,7 +85,8 @@ function displayDone() {
       </div>
       `; 
       todo.innerHTML = displayMessage;
-    } else todo.innerHTML = '';
+    };
+    // else todo.innerHTML = '';
   })
   // localStorage.setItem('todo', JSON.stringify(todoList));
 };
@@ -154,6 +161,8 @@ nav.addEventListener('click', function(event) {
     document.querySelector('.li-all').classList.remove('active');
     document.querySelector('.li-done').classList.remove('active');
     document.querySelector('.add-tasks').classList.remove('add-none');
+    console.log(todoList);
+    console.log(document.querySelector('.li-about').classList.contains('active'));
     chooseDisplayTasks();
 
   }
