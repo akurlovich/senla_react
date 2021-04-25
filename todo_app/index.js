@@ -2,6 +2,7 @@
 
 const addMessage = document.querySelector('.input-task'),
     addButton = document.querySelector('.task-btn'),
+    search = document.querySelector('.input-search'),
     delButtons = document.querySelectorAll('.del-btn'),
     todo = document.querySelector('.todo-list'),
     nav = document.querySelector('.navigation');
@@ -175,3 +176,26 @@ nav.addEventListener('click', function(event) {
 
   }
 })
+
+search.oninput = function() {
+  let value = this.value.trim(),
+      list = document.querySelectorAll('.task-text');
+      // console.log(list.parentNode);
+      if (value != '') {
+        list.forEach(elem => {
+          // console.log(elem.parentNode);
+          if (elem.innerHTML.search(value) == -1) {
+            elem.parentNode.classList.add('text-none')
+          }
+        });
+      } else {
+        list.forEach(elem => {
+          elem.parentNode.classList.remove('text-none')
+        })
+      }
+      // console.log(this.value);
+}
+
+search.addEventListener("focusout", () => {
+  search.value = '';
+});
