@@ -4,8 +4,11 @@ import React, { Component, useState } from 'react'
 interface IState {
   text: string
 }
-export default class AddTask extends Component<{}, IState> {
-  constructor(props: string) {
+interface ITodoFormProps {
+  onAdd(title: string): void;
+}
+export default class AddTask extends Component<ITodoFormProps, IState> {
+  constructor(props: ITodoFormProps) {
     super(props)
     this.state = {
       text: '',
@@ -14,6 +17,7 @@ export default class AddTask extends Component<{}, IState> {
   }
   buttonHandler = () => {
     console.log('button click', this.state.text);
+    this.props.onAdd(this.state.text)
     this.setState({text: ''})
   };
   inputHandler = (event: React.ChangeEvent<HTMLTextAreaElement>) => {

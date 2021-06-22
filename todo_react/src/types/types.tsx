@@ -10,3 +10,10 @@ export interface IUser {
   email: string,
   address: IAddress,
 }
+
+export interface ITodo {
+  todo: string,
+  checked: false,
+  important: false,
+  id: number,
+}
